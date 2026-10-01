@@ -1,0 +1,4 @@
+.share-card-button { color:var(--zs-text-primary); }
+.share-card-button small { color:var(--zs-text-secondary); }
+.share-card-button:not(:disabled):hover { background:var(--zs-hover-bg); color:var(--zs-brand-text); }
+.share-card-button:disabled { color:var(--zs-disabled-text); }

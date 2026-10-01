@@ -1,0 +1,11 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import ErrorBoundary from './ErrorBoundary';
+import '@fontsource/noto-serif-sc/400.css';
+import './styles.css';
+import './theme/palettes.css';
+import './theme/states.css';
+import {initializeTheme} from './theme/theme';
+initializeTheme();
+createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorBoundary><App /></ErrorBoundary></React.StrictMode>);

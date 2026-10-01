@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" fill="none">
+  <title>一纸花开 · 原创装饰团花</title>
+  <desc>八瓣镂空花、月牙细孔与成对花叶。仅为界面装饰，不是制作纸样。</desc>
+  <defs>
+    <path id="petal" d="M170 109C145 95 141 71 151 56L163 47 170 25 177 47 189 56C199 71 195 95 170 109Z"/>
+    <path id="hole" d="M170 89C159 79 158 65 170 55 182 65 181 79 170 89Z"/>
+    <path id="ray" d="M170 17l-3 6 3 6 3-6Z"/>
+    <mask id="cut">
+      <rect width="340" height="220" fill="white"/>
+      <g fill="black">
+        <use href="#hole"/><use href="#hole" transform="rotate(45 170 109)"/><use href="#hole" transform="rotate(90 170 109)"/><use href="#hole" transform="rotate(135 170 109)"/><use href="#hole" transform="rotate(180 170 109)"/><use href="#hole" transform="rotate(225 170 109)"/><use href="#hole" transform="rotate(270 170 109)"/><use href="#hole" transform="rotate(315 170 109)"/>
+        <path d="M170 94l8 7 7 8-7 8-8 7-8-7-7-8 7-8Z"/>
+        <path d="M42 149q16-7 26-3-16 0-22 9ZM61 171q12-9 23-7-15 3-19 13ZM276 81q11-8 21-8-11 5-17 14ZM293 101q11-7 19-7-9 4-14 11Z"/>
+      </g>
+    </mask>
+  </defs>
+  <g fill="#B72D24" mask="url(#cut)">
+    <use href="#petal"/><use href="#petal" transform="rotate(45 170 109)"/><use href="#petal" transform="rotate(90 170 109)"/><use href="#petal" transform="rotate(135 170 109)"/><use href="#petal" transform="rotate(180 170 109)"/><use href="#petal" transform="rotate(225 170 109)"/><use href="#petal" transform="rotate(270 170 109)"/><use href="#petal" transform="rotate(315 170 109)"/>
+    <circle cx="170" cy="109" r="23"/>
+    <path d="M94 126C79 159 57 180 27 188L27 185C55 174 77 152 90 124ZM75 155C54 131 43 134 28 143 44 146 40 164 75 155ZM88 139C62 137 58 124 61 106 80 114 87 120 88 139ZM57 174C39 168 29 171 16 182 33 181 41 193 57 174ZM77 165C80 191 67 201 53 204 54 186 59 176 77 165ZM250 94C269 64 290 54 323 53L323 56C292 57 272 71 254 97ZM273 72C266 49 277 37 291 31 290 50 284 64 273 72ZM270 81C290 67 301 69 314 76 298 87 288 92 270 81ZM288 64C302 44 314 39 330 42 321 57 305 67 288 64ZM285 96C304 85 315 86 329 96 313 105 300 109 285 96Z"/>
+  </g>
+  <g fill="#B72D24"><use href="#ray"/><use href="#ray" transform="rotate(45 170 109)"/><use href="#ray" transform="rotate(90 170 109)"/><use href="#ray" transform="rotate(135 170 109)"/><use href="#ray" transform="rotate(180 170 109)"/><use href="#ray" transform="rotate(225 170 109)"/><use href="#ray" transform="rotate(270 170 109)"/><use href="#ray" transform="rotate(315 170 109)"/></g>
+</svg>

@@ -1,0 +1,12 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1920,height:1080},deviceScaleFactor:2});
+await page.addInitScript(()=>{localStorage.setItem('paperWorkshop.onboarding.v1',JSON.stringify({status:'skipped',tourVersion:1}));localStorage.setItem('paperWorkshop.welcome.v1','seen');});
+await page.goto('http://127.0.0.1:5194');
+await page.getByTestId('geometry-status').waitFor();
+await page.evaluate(()=>document.fonts.ready);
+await page.screenshot({path:'../artifacts/v5-video/preflight.png',fullPage:true});
+await fs.writeFile('../artifacts/v5-video/preflight.txt',await page.locator('body').innerText());
+console.log(await page.getByRole('button').allTextContents());
+await browser.close();

@@ -1,0 +1,30 @@
+/* Semantic states shared by every palette; export and print documents do not import this stylesheet. */
+:root{accent-color:var(--zs-brand)}
+body{background:var(--zs-bg-canvas);color:var(--zs-text-primary)}
+button:disabled{opacity:1;background-color:var(--zs-disabled-bg);color:var(--zs-disabled-text)}
+button:not(:disabled):hover,a:hover{color:var(--zs-brand-text)}
+button:not(:disabled):focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--zs-focus-ring);outline-offset:3px}
+::placeholder{color:var(--zs-text-muted);opacity:1}
+::selection{background:var(--zs-brand);color:var(--zs-text-on-brand)}
+.primary-button,.print-button,.brand-mark,.real-cut-play{background:var(--zs-brand);color:var(--zs-text-on-brand)}
+.primary-button:not(:disabled):hover,.print-button:not(:disabled):hover{background:var(--zs-brand-strong);color:var(--zs-text-on-brand)}
+.primary-button:disabled,.print-button:disabled{background:var(--zs-disabled-bg);color:var(--zs-disabled-text);border:1px solid var(--zs-line-strong)}
+.inspiration-filters button[aria-pressed=true]{background:var(--zs-brand);color:var(--zs-text-on-brand)}
+.inspiration-filters button[aria-pressed=true]:hover{background:var(--zs-brand-strong);color:var(--zs-text-on-brand)}
+.lesson-link.selected,.tool-options button.active,.fold-options button.active,.prediction-options label.selected{background:var(--zs-active-bg);color:var(--zs-brand-text);border-color:var(--zs-selected-border)}
+.paper-material{fill:var(--zs-canvas-retain);stroke:var(--zs-canvas-retain)}
+.paper-original{fill:var(--zs-canvas-cut);stroke:var(--zs-canvas-fold)}
+.paper-fragment{fill:var(--zs-accent-warm)}
+.fold-outline{fill:var(--zs-bg-sunken);stroke:var(--zs-canvas-fold)}
+.fold-guides{stroke:var(--zs-text-on-brand)}
+.task-complete .task-check{background:var(--zs-bg-paper);color:var(--zs-success);border-color:var(--zs-success)}
+.dialog-backdrop,.tour-backdrop{background:var(--zs-bg-overlay)}
+.toast{background:var(--zs-bg-paper);color:var(--zs-text-primary);border:1px solid var(--zs-line-strong);box-shadow:var(--zs-shadow-float)}
+.real-cut-loading{background:var(--zs-bg-overlay);color:var(--zs-text-on-brand)}
+.real-cut-play-note button,.text-action,.label-index,.nav-active{color:var(--zs-brand-text)}
+
+.audio-transport .audio-play:not(:disabled):hover{color:var(--zs-text-on-brand)}
+
+.rejected-cut{fill:color-mix(in srgb,var(--zs-brand-text) 9%,transparent)}
+.edit-preview svg>path:last-of-type{fill:color-mix(in srgb,var(--zs-bg-paper) 50%,transparent)}
+.history-undone{opacity:1}

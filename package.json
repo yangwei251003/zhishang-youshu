@@ -1,0 +1,40 @@
+{
+  "name": "zhishang-youshu",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5192 --strictPort",
+    "build": "npm run check:contrast && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5192 --strictPort",
+    "start": "node scripts/serve.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -b",
+    "test:e2e": "playwright test",
+    "samples": "tsx scripts/export-samples.ts",
+    "licenses": "node scripts/collect-licenses.mjs",
+    "samples:pdf": "node scripts/render-print-samples.mjs",
+    "verify:production": "node scripts/verify-production.mjs",
+    "package:local": "node scripts/package-release.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:layout": "node scripts/check-layout.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-serif-sc": "^5.3.0",
+    "clipper2-ts": "2.0.1-18",
+    "lucide-react": "^0.577.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "6.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "8.3.1",
+    "vitest": "5.0.2"
+  }
+}

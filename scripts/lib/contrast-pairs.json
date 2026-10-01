@@ -1,0 +1,128 @@
+[
+  [
+    "正文 / 纸面",
+    "text-primary",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "正文 / 页底",
+    "text-primary",
+    "bg-canvas",
+    4.5
+  ],
+  [
+    "次要 / 纸面",
+    "text-secondary",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "次要 / 页底",
+    "text-secondary",
+    "bg-canvas",
+    4.5
+  ],
+  [
+    "弱提示 / 纸面",
+    "text-muted",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "弱提示 / 页底",
+    "text-muted",
+    "bg-canvas",
+    4.5
+  ],
+  [
+    "按钮文字 / 品牌底",
+    "text-on-brand",
+    "brand",
+    4.5
+  ],
+  [
+    "按钮文字 / 品牌按下",
+    "text-on-brand",
+    "brand-strong",
+    4.5
+  ],
+  [
+    "朱砂正文强调 / 纸面",
+    "brand-text",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "朱砂正文强调 / 页底",
+    "brand-text",
+    "bg-canvas",
+    4.5
+  ],
+  [
+    "靛青辅助 / 纸面",
+    "accent-info",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "赭石辅助 / 纸面",
+    "accent-warm",
+    "bg-paper",
+    4.5
+  ],
+  [
+    "控件边框 / 纸面（非文本 3:1）",
+    "line-strong",
+    "bg-paper",
+    3
+  ],
+  [
+    "焦点环 / 纸面（非文本 3:1）",
+    "focus-ring",
+    "bg-paper",
+    3
+  ],
+  [
+    "分隔线可辨 / 页底（装饰 ≥1.5）",
+    "line",
+    "bg-canvas",
+    1.5
+  ],
+  [
+    "剪纸红纸 / 纸面（图形 3:1）",
+    "canvas-retain",
+    "bg-paper",
+    3
+  ],
+  [
+    "剪纸红纸 / 页底（图形 3:1）",
+    "canvas-retain",
+    "bg-canvas",
+    3
+  ],
+  [
+    "留标记 / 纸面",
+    "goal-retain",
+    "bg-paper",
+    3
+  ],
+  [
+    "剪标记 / 纸面",
+    "goal-cut",
+    "bg-paper",
+    3
+  ],
+  [
+    "纸面 / 页底（层次）",
+    "bg-paper",
+    "bg-canvas",
+    1.05
+  ],
+  [
+    "纸面 / 凹陷底（层次）",
+    "bg-paper",
+    "bg-sunken",
+    1.03
+  ]
+]

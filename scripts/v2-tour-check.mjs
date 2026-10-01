@@ -1,0 +1,12 @@
+import { chromium, expect } from '@playwright/test';
+import { writeFile } from 'node:fs/promises';
+const b=await chromium.launch({channel:'chrome'});const p=await b.newPage({viewport:{width:1440,height:900}});const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.goto('http://127.0.0.1:5188');await p.getByRole('button',{name:'带我完成第一剪'}).click();await expect(p.locator('.tour-counter')).toContainText('1 / 6');
+await p.screenshot({path:'docs/v2-implementation/evidence/tour-1.png'});
+await p.locator('.tour-card').getByRole('button',{name:'下一步',exact:true}).click();await p.getByRole('radio',{name:/2 个/}).check();await p.getByRole('button',{name:'记录预测，展开观察'}).click();await expect(p.locator('.tour-state')).toContainText('本步操作已完成');
+await p.locator('.tour-card').getByRole('button',{name:'下一步',exact:true}).click();
+const canvas=p.getByTestId('folded-canvas');await canvas.scrollIntoViewIfNeeded();const pts=await canvas.evaluate(el=>[[81,-60],[65,-40]].map(([x,y])=>{const q=new DOMPoint(x,y).matrixTransform(el.getScreenCTM());return {x:q.x,y:q.y}}));await p.mouse.move(pts[0].x,pts[0].y);await p.mouse.down();await p.mouse.move(pts[1].x,pts[1].y,{steps:6});await p.mouse.up();
+await expect(p.locator('.tour-state')).toContainText('本步操作已完成');await p.locator('.tour-card').getByRole('button',{name:'下一步',exact:true}).click();await p.getByRole('button',{name:'下一步展开',exact:true}).click();await p.locator('.tour-card').getByRole('button',{name:'下一步',exact:true}).click();
+await p.getByRole('button',{name:/回看第 1 刀/}).click();await p.getByRole('button',{name:'调整参数',exact:true}).click();await p.getByLabel('宽度（mm）',{exact:true}).fill('18');await p.getByLabel('左侧位置 X（mm）').fill('62');await p.getByRole('button',{name:'检查并应用修改'}).click();await expect(p.getByRole('dialog')).toHaveCount(0);await expect(p.locator('.tour-state')).toContainText('本步操作已完成');await p.locator('.tour-card').getByRole('button',{name:'下一步',exact:true}).click();
+await p.screenshot({path:'docs/v2-implementation/evidence/tour-6.png'});await p.getByRole('button',{name:'开始我的实验',exact:true}).click();await expect(p.locator('.tour-card')).toHaveCount(0);await expect(p.locator('.work-title')).toContainText('一纸，生万象');await p.reload();await expect(p.getByRole('button',{name:'带我完成第一剪'})).toHaveCount(0);
+console.log({tour:'PASS',errors});await writeFile('docs/v2-implementation/evidence/tour-result.json',JSON.stringify({tour:'PASS',errors}));await b.close();
