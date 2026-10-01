@@ -75,3 +75,33 @@ CSS先独立收敛：7处750px媒体查询合并，清理history/rail-help重复
 - 启动器文件编码/内容已检查；当前体验服务由同一服务脚本启动。未为测试双击启动器而中断正在运行的5192。
 
 复跑顺序：`npm test` → `npm run typecheck` → `npm run build` → `npm run check:contrast`；另开dev服务5194执行 `npm run test:e2e`（platform.spec需源码模块），保留生产5192执行 `npm run verify:production`、`node scripts/check-layout.mjs`、`node scripts/v4-zoom-check.mjs`。运行包由 `npm run package:local` 生成，包含dist-v4、本地媒体、启动入口、来源与验证记录。测试/浏览器输出使用项目内独立目录，避免热更新影响结果。
+
+## 2026-10-01 维护记录（定向复跑与版本基线）
+
+### 一、两项残留失败产物的定向复跑
+
+`test-results/` 中曾残留 2 份失败产物，来源与本次复跑结果如下：
+
+| 用例 | 残留产物的失败信息 | 2026-10-01 定向复跑 |
+|---|---|---|
+| `tests/e2e/tour.spec.ts:38` 真实六步漫游完成、刷新持久与原作品及记录隔离 | `Test timeout of 45000ms exceeded` | Chrome 13.3s 通过；Edge 13.6s 通过 |
+| `tests/e2e/v2.spec.ts:58` V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路 | `browserContext.close: ENOENT ... .playwright-artifacts-1\traces\*-recording2.trace` | Chrome 38.2s 通过；Edge 40.7s 通过 |
+
+复跑命令：`node node_modules/@playwright/test/cli.js test -g "真实六步漫游|V2 六课两新题" --reporter=list`。环境：Windows、Node.js 24.15.0，真实 Chrome 与 Edge，1 worker（沿用 `fullyParallel: false, workers: 1`）。
+
+**判断与边界：**
+- 两项本次均**不可复现**，未发现产品缺陷证据。tour 的失败是测试超时（同用例本次 13.3s，为超时上限的约 29%）；v2 的失败发生在 `browserContext.close` 落盘阶段，属 trace 文件写入异常，不是断言失败。
+- 残留产物已由本次运行清除，`test-results/` 现仅剩 `.last-run.json`。
+- 该现象更像测试基础设施与运行环境问题（同目录被并发或中断的 Playwright 运行复用）而非代码缺陷；**未做充分证明**，按本项目约定不将其列为"已修复"。
+- **本次是定向复跑，不是全量回归**，不得用它冒称全量成功。全量口径仍以 `artifacts/e2e-results.json`（expected 120、unexpected 0、flaky 0、skipped 0）与本仓 WORKLOG 记录为准。为避免覆盖这两份已有证据，本次复跑显式使用 `--reporter=list`，未重新生成报告与结果 JSON。
+- 复跑只读取与执行测试，未改动 `src/`、`tests/` 或 `playwright.config.ts`。
+
+**待改进（尚未实施）：** `playwright.config.ts` 的 `reporter` 将 HTML 报告与 `artifacts/e2e-results.json` 固定为单一输出路径，`test-results/` 亦为共享目录；两个 Playwright 进程同时运行时会互相覆盖。建议定向复跑统一显式指定 `--output`（现有 `artifacts/e2e-*` 的做法），或每次运行单独目录，避免再次出现无法归因的残缺产物。
+
+### 二、版本控制基线
+
+项目此前从未提交（`git log` 报 `your current branch 'master' does not have any commits yet`，全部文件为未跟踪），已建立首次提交作为可回滚节点：
+
+- 提交内容：`src/`、`tests/`、`scripts/`、`docs/`（文本）、`video-production/`（脚本与配置）、配置文件与启动脚本，共 219 个文件，约 1.48MB；未改动任何业务代码。
+- 扩充 `.gitignore`（原文件未覆盖 `dist-v4/`）：新增 `dist-v4/`、`artifacts/`、`docs/**/evidence/`、`*.zip`、`*.mp4`、`*.webm`、`*.exe`，以及 `video-production` 的依赖与产物、`public/videos/`、`public/audio/`。理由：这些目录合计约 1.6GB（`artifacts/` 1.2GB、`video-production/` 154MB、`docs/v4-implementation/` 57MB、`dist-v4/` 66MB），入库后会使仓库膨胀且难以回退；这些文件均保留在本地，未被删除。
+- 影响：仓库副本不含站点媒体与验收产物，克隆后需自行准备 `public/videos/`、`public/audio/` 才能完整运行工坊。若需要连媒体一起入库，需相应调整 `.gitignore`。
