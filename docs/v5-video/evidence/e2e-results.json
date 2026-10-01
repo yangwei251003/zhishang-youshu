@@ -1,0 +1,4465 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--output=artifacts/v5-integration/e2e-final"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v5-integration/e2e-final",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v5-integration/e2e-final",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5194",
+      "url": "http://127.0.0.1:5194",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "platform.spec.ts",
+      "file": "platform.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2042,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:21.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-1e92e5303aa888f7cd5c",
+          "file": "platform.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2142,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "50刀8层首次Worker计算（含初始化） {\"elapsedMs\":260.60000002384186,\"count\":50,\"valid\":true,\"regions\":1,\"area\":25390}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:23.704Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-8f505ac1573b0bbb69a9",
+          "file": "platform.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3889,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:05.624Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-baa2622347c7dccae883",
+          "file": "platform.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3654,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "50刀8层首次Worker计算（含初始化） {\"elapsedMs\":301.5,\"count\":50,\"valid\":true,\"regions\":1,\"area\":25390}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:11.042Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-0df29f3ff7537925e5b9",
+          "file": "platform.spec.ts",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tour.spec.ts",
+      "file": "tour.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11386,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:25.894Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-a87b43ffb0ecd2a48950",
+          "file": "tour.spec.ts",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8254,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:37.303Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-5933ce814d7f36c9f0c9",
+          "file": "tour.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4211,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:45.577Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-15a13890685992e02763",
+          "file": "tour.spec.ts",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17861,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:14.829Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-03b1f50323b216babd1e",
+          "file": "tour.spec.ts",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13160,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:32.723Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-d2cf731dc0b74e7e426a",
+          "file": "tour.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6315,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:45.915Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-23f12989e5d746a10506",
+          "file": "tour.spec.ts",
+          "line": 106,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v2-lifecycle.spec.ts",
+      "file": "v2-lifecycle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14832,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:18:49.828Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8bca2e6da3d1ce743a5a-81b7b4b63ff5ecbf3ed7",
+          "file": "v2-lifecycle.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17525,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:27:52.287Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8bca2e6da3d1ce743a5a-608656b1ab31c6fc049c",
+          "file": "v2-lifecycle.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v2.spec.ts",
+      "file": "v2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:19:04.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-febed0fc23a17d1f9d05",
+          "file": "v2.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 33047,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "一剪，两相映",
+                      "duration": 4297
+                    },
+                    {
+                      "title": "四面有回声",
+                      "duration": 3802
+                    },
+                    {
+                      "title": "一纸，生万象",
+                      "duration": 3921
+                    },
+                    {
+                      "title": "孔，还是一座岛",
+                      "duration": 3818
+                    },
+                    {
+                      "title": "留住这一线",
+                      "duration": 3744
+                    },
+                    {
+                      "title": "从屏幕，到手心",
+                      "duration": 3738
+                    },
+                    {
+                      "title": "折线上的相遇",
+                      "duration": 3734
+                    },
+                    {
+                      "title": "让纸重新相连",
+                      "duration": 3670
+                    }
+                  ],
+                  "startTime": "2026-09-28T06:19:14.253Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-4d30eee5c7f1b68617f0",
+          "file": "v2.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7842,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:19:47.321Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-c3838ca2bcd5a931a68c",
+          "file": "v2.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9612,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:19:55.181Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-1331472b06929c59d4fe",
+          "file": "v2.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:04.810Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-7c949db4688d278aae06",
+          "file": "v2.spec.ts",
+          "line": 115,
+          "column": 1
+        },
+        {
+          "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:28:09.876Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-6ec9f864a69fc1b02352",
+          "file": "v2.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 51368,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "一剪，两相映",
+                      "duration": 6632
+                    },
+                    {
+                      "title": "四面有回声",
+                      "duration": 5778
+                    },
+                    {
+                      "title": "一纸，生万象",
+                      "duration": 7134
+                    },
+                    {
+                      "title": "孔，还是一座岛",
+                      "duration": 6325
+                    },
+                    {
+                      "title": "留住这一线",
+                      "duration": 5158
+                    },
+                    {
+                      "title": "从屏幕，到手心",
+                      "duration": 5410
+                    },
+                    {
+                      "title": "折线上的相遇",
+                      "duration": 4833
+                    },
+                    {
+                      "title": "让纸重新相连",
+                      "duration": 5901
+                    }
+                  ],
+                  "startTime": "2026-09-28T06:28:22.991Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-a667210a65fd2511c441",
+          "file": "v2.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11808,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:29:14.390Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-2e5ac72e4ad88e024888",
+          "file": "v2.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13846,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:29:26.227Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-c1da38080bd44903ae94",
+          "file": "v2.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18690,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:29:40.100Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-bb1e892743f7c9f1b690",
+          "file": "v2.spec.ts",
+          "line": 115,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v3-content.spec.ts",
+      "file": "v3-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V3 double-happiness：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9116,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:18.241Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-73800cc8184eb601b3d2",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 butterfly：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:27.385Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-45fded3d8841922b5685",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 border-pattern：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10601,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:36.166Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-c3ff4c66d5d5bc172b05",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-happiness：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11586,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:46.796Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-fa83d1008e2464bc63de",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-border：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9540,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:20:58.414Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-47e2ea17c4a08a1347d3",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-happiness：迁移题提示前不泄露刀号，辅助修复后完整目标通过",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8960,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:07.985Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-1caa0977dee105655d1c",
+          "file": "v3-content.spec.ts",
+          "line": 88,
+          "column": 65
+        },
+        {
+          "title": "V3 transfer-border：迁移题提示前不泄露刀号，辅助修复后完整目标通过",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8730,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:16.972Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-bd18945bc76827998253",
+          "file": "v3-content.spec.ts",
+          "line": 88,
+          "column": 65
+        },
+        {
+          "title": "V3 double-happiness：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13621,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:29:58.930Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-3d1df1d040f9adbee46a",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 butterfly：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:30:12.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-e048297d5b8a6b6f4b80",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 border-pattern：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11879,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:30:26.299Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-24121db927baf28729fb",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-happiness：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11827,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:30:38.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-8dc03ce3c7e44d33afcd",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-border：预测旁路锁定、原生备份、留剪标记与打印模板",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10552,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:30:50.069Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-0722a9f5776b6261019f",
+          "file": "v3-content.spec.ts",
+          "line": 44,
+          "column": 31
+        },
+        {
+          "title": "V3 transfer-happiness：迁移题提示前不泄露刀号，辅助修复后完整目标通过",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10386,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:00.655Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-be7cc632006cc3246deb",
+          "file": "v3-content.spec.ts",
+          "line": 88,
+          "column": 65
+        },
+        {
+          "title": "V3 transfer-border：迁移题提示前不泄露刀号，辅助修复后完整目标通过",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9784,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:11.067Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95674fbbb1bdb9d42be7-27e414e44b3b26402fc8",
+          "file": "v3-content.spec.ts",
+          "line": 88,
+          "column": 65
+        }
+      ]
+    },
+    {
+      "title": "v3-media.spec.ts",
+      "file": "v3-media.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "灵感库五类十段均有标题作者来源，首屏不创建播放器或外部请求",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:25.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-442277d64d9cf0c5b13f",
+          "file": "v3-media.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "只有点击才挂载静音不自动播放的官方播放器，收起后卸载",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2620,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:28.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-c5c7fc949ac58f859b31",
+          "file": "v3-media.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "离线信号卸载播放器、显示本地三步提示，来源与练习仍可用",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:31.618Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-bfc1e8a448fb581e4bf0",
+          "file": "v3-media.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "每一类都有实际课程入口，手机灵感库无水平溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:34.477Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-47cb08bedec0d54e5853",
+          "file": "v3-media.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "灵感库五类十段均有标题作者来源，首屏不创建播放器或外部请求",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:20.913Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-292da73eef35b4aea353",
+          "file": "v3-media.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "只有点击才挂载静音不自动播放的官方播放器，收起后卸载",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:25.024Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-5544967e836aeb132892",
+          "file": "v3-media.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "离线信号卸载播放器、显示本地三步提示，来源与练习仍可用",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:28.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-cc06273f3a36d5bf9ffe",
+          "file": "v3-media.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "每一类都有实际课程入口，手机灵感库无水平溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7493,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:31.648Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d33f3cf9c0b9f101d4cc-14870a68a1e09e94fcad",
+          "file": "v3-media.spec.ts",
+          "line": 83,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v3-onboarding.spec.ts",
+      "file": "v3-onboarding.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V3 1100px 七任务真实完成、参数及修复弹窗避让、正式作品隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12466,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:40.750Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-4693bf9834a687365283",
+          "file": "v3-onboarding.spec.ts",
+          "line": 32,
+          "column": 35
+        },
+        {
+          "title": "V3 1280px 七任务真实完成、参数及修复弹窗避让、正式作品隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:21:53.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-8353c6a1dce56208f135",
+          "file": "v3-onboarding.spec.ts",
+          "line": 32,
+          "column": 35
+        },
+        {
+          "title": "V3 任务进度断点续导与跳过刷新，不把练习当作正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8729,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:05.701Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-f8f1ff069e1795affbd6",
+          "file": "v3-onboarding.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "V3 1440px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4205,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:14.451Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-70f0bacdf637a142fd8c",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 390px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3968,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:18.676Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-d96b7b1e0860a55b11e6",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 360px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3773,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:22.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-7a9a9a6e3a75e322d489",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 200% 等效 CSS 视口 720×450 的预测、参数滚动、Esc与减少动态",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4563,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:26.447Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-c6f95a665b370a61587f",
+          "file": "v3-onboarding.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "V3 1100px 七任务真实完成、参数及修复弹窗避让、正式作品隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15096,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:39.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-d02c57586a428fc98b3d",
+          "file": "v3-onboarding.spec.ts",
+          "line": 32,
+          "column": 35
+        },
+        {
+          "title": "V3 1280px 七任务真实完成、参数及修复弹窗避让、正式作品隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21149,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:31:54.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-80763a8492f2c68c36f7",
+          "file": "v3-onboarding.spec.ts",
+          "line": 32,
+          "column": 35
+        },
+        {
+          "title": "V3 任务进度断点续导与跳过刷新，不把练习当作正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10560,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:15.529Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-744579eb9cdab4b736fc",
+          "file": "v3-onboarding.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "V3 1440px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4946,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:26.121Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-42ca1b391017c9a23265",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 390px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:31.088Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-abddaade00053c82d2aa",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 360px 预测文字可见并可点击",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4424,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:35.533Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-bbf8c031b2056d4eac8f",
+          "file": "v3-onboarding.spec.ts",
+          "line": 67,
+          "column": 37
+        },
+        {
+          "title": "V3 200% 等效 CSS 视口 720×450 的预测、参数滚动、Esc与减少动态",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4859,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:39.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "242a22c90463e01bb7a0-85c63c7d99e3cdde1c29",
+          "file": "v3-onboarding.spec.ts",
+          "line": 72,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v3-resilience.spec.ts",
+      "file": "v3-resilience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V3 no-gesture audio silence, preference restore, keyboard audio toggle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5310,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:31.053Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-99154457d16378691e40",
+          "file": "v3-resilience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "blocked persistent storage permits editing, lesson switching and JSON backup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10870,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:36.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-97c13fd43152d1a95a76",
+          "file": "v3-resilience.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "print popup blocked offers a standalone file and keeps prediction gating",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:47.270Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-1e4a1805cde26000f5ec",
+          "file": "v3-resilience.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "repair timeout offers choices while undo stays responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10612,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:22:50.567Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-1f3ba5d4588fe22c71b8",
+          "file": "v3-resilience.spec.ts",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "external network blocked: prediction, repair and export remain entirely local",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:01.194Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-33d72aacc544cdacf50d",
+          "file": "v3-resilience.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "actual archived V1 project imports and restores its millimetre geometry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5938,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:07.454Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-4e79a1a611daf3a28dfe",
+          "file": "v3-resilience.spec.ts",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "V3 no-gesture audio silence, preference restore, keyboard audio toggle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:44.886Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-ecd64182bfda7bc76bda",
+          "file": "v3-resilience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "blocked persistent storage permits editing, lesson switching and JSON backup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:32:50.982Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-fc4b145f60d1583376f8",
+          "file": "v3-resilience.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "print popup blocked offers a standalone file and keeps prediction gating",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4092,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:02.435Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-d4978442631a98de6a15",
+          "file": "v3-resilience.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "repair timeout offers choices while undo stays responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10851,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:06.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-dfa3f151f014d0f3aab3",
+          "file": "v3-resilience.spec.ts",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "external network blocked: prediction, repair and export remain entirely local",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6645,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:17.426Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-0473c0f2c304dcb3d53d",
+          "file": "v3-resilience.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "actual archived V1 project imports and restores its millimetre geometry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:24.094Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-a7580e00cdd51f86b860",
+          "file": "v3-resilience.spec.ts",
+          "line": 71,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v4-audio.spec.ts",
+      "file": "v4-audio.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V4 冷启动音乐保持关闭，v1迁移与双音量偏好刷新可恢复",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4807,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:13.433Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-1beefb5a74849272374b",
+          "file": "v4-audio.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "V4 四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11254,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:18.257Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "track-1-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-chrome\\attachments\\track-1-output-json-55efa81bc87c6644aa2d2b11b5e25143184d08dd.json"
+                    },
+                    {
+                      "name": "track-2-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-chrome\\attachments\\track-2-output-json-fa837c6af0bd0abeb28c7ba09b182da58aa22a85.json"
+                    },
+                    {
+                      "name": "track-3-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-chrome\\attachments\\track-3-output-json-fce3bcc01befbc0f8e0cfc86d5fb1ffd1dcda92a.json"
+                    },
+                    {
+                      "name": "track-4-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-chrome\\attachments\\track-4-output-json-d61a5da5e7bced902562167b46455b7a62714b90.json"
+                    },
+                    {
+                      "name": "music-output-measurements.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-chrome\\attachments\\music-output-measurements-json-6eda0d5a5b97cfa29e885c8d64b41a6cb771e385.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-cd1dc5bf050f68ce2fc0",
+          "file": "v4-audio.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "V4 暂停与切页隐藏不会自动恢复，明确播放后恢复同一首",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2714,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:29.533Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-cd7eba233814630a0cde",
+          "file": "v4-audio.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "V4 四首文件失败时有界跳过并进入生成乐句，保持可关闭",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8528,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:32.267Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "generated-output-measurements.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首文件失败时有界跳过并进入生成乐句，保持可关闭-chrome\\attachments\\generated-output-measurements-json-381096178e9e5d133c002c1d28c81526025a386a.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-0dd3b93b92f79206a406",
+          "file": "v4-audio.spec.ts",
+          "line": 103,
+          "column": 1
+        },
+        {
+          "title": "V4 冷启动音乐保持关闭，v1迁移与双音量偏好刷新可恢复",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5013,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:29.578Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-a17192c9a8d249f88b38",
+          "file": "v4-audio.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "V4 四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11244,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:34.608Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "track-1-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-edge\\attachments\\track-1-output-json-c936e7f2dcfb534e8156af023a00e990b67fa00f.json"
+                    },
+                    {
+                      "name": "track-2-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-edge\\attachments\\track-2-output-json-d7ca2b2f6f0be5e854f9c0d74ebc622026ea9dc1.json"
+                    },
+                    {
+                      "name": "track-3-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-edge\\attachments\\track-3-output-json-a0d72eca3de52bb8dcee3559f4bb9921387efaaa.json"
+                    },
+                    {
+                      "name": "track-4-output.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-edge\\attachments\\track-4-output-json-037307fd30f54b565f246e41e4d42b0f020f96f3.json"
+                    },
+                    {
+                      "name": "music-output-measurements.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首本地曲真实解码播放、输出非静音，断外网且切曲无叠播-edge\\attachments\\music-output-measurements-json-78dfb9d58358df500991f3116d4eaacabcac618b.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-721e488b0c2824ff1f8a",
+          "file": "v4-audio.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "V4 暂停与切页隐藏不会自动恢复，明确播放后恢复同一首",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2783,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:45.870Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-2e6d198229ef346482f6",
+          "file": "v4-audio.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "V4 四首文件失败时有界跳过并进入生成乐句，保持可关闭",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8151,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:48.676Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "generated-output-measurements.json",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-audio-V4-四首文件失败时有界跳过并进入生成乐句，保持可关闭-edge\\attachments\\generated-output-measurements-json-2708828176837afae1509aa652b1329a6566bfc6.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c17dbe8cd1f1cb2d9f8c-18af4f785aa6d3378e90",
+          "file": "v4-audio.spec.ts",
+          "line": 103,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v4-share.spec.ts",
+      "file": "v4-share.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V4 2层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6724,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:40.831Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-2-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-2层本地分享PNG：预测门槛、离线导出与真实像素尺寸-chrome\\attachments\\share-2-layers-ba7eaed703cab57d5776d7066c9603d4ac6432e7.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-68fb39fc3d0f3d43e728",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 4层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:47.569Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-4-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-4层本地分享PNG：预测门槛、离线导出与真实像素尺寸-chrome\\attachments\\share-4-layers-18f27dcea6dd591a1d98059b9cb97695abe18fa7.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-6f9170aa6bef937dc0c6",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 8层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7950,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:23:54.342Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-8-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-8层本地分享PNG：预测门槛、离线导出与真实像素尺寸-chrome\\attachments\\share-8-layers-bcf4550a71611423d5a5720138411b810ce1f1c5.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-1db0034ba3fff3f2a017",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 我的作品汇总复制记录去重，按作品导出与既有记录格式一致",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5731,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:02.318Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-c0f6784d61ef0eee21c8",
+          "file": "v4-share.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "V4 2层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6542,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:33:56.866Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-2-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-2层本地分享PNG：预测门槛、离线导出与真实像素尺寸-edge\\attachments\\share-2-layers-0782484af0adfb5c6985142d4692c8af11c2a53c.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-0dac5db4beb08821265f",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 4层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6481,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:03.427Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-4-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-4层本地分享PNG：预测门槛、离线导出与真实像素尺寸-edge\\attachments\\share-4-layers-69680afa7e14aeb39043f9eb75155d420f896311.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-01917015b3de033aa805",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 8层本地分享PNG：预测门槛、离线导出与真实像素尺寸",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6885,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:09.931Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "share-8-layers",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v5-integration\\e2e-final\\v4-share-V4-8层本地分享PNG：预测门槛、离线导出与真实像素尺寸-edge\\attachments\\share-8-layers-e05b0ac25ad89947bd16d7abec6bcbb5c682ee57.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-136f4df3da62631def23",
+          "file": "v4-share.spec.ts",
+          "line": 17,
+          "column": 4
+        },
+        {
+          "title": "V4 我的作品汇总复制记录去重，按作品导出与既有记录格式一致",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3844,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:16.839Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9cf0cb21023ca5502a44-32f02d383cb73dbca916",
+          "file": "v4-share.spec.ts",
+          "line": 54,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v4-theme-layout.spec.ts",
+      "file": "v4-theme-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "five real themes persist and keep printed millimetres and SVG independent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15088,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:08.115Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-4595af700f93b2b4cb3d",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion and missing View Transitions switch directly; system theme follows device",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:23.234Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-c1342aa4a3c1ad67e12d",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "navigation distinguishes current page from open overlay and returns focus with Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:26.158Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-f4bb473f6c2824c1b4c5",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "first task collapses the rail without hiding its progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4773,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:32.264Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-bc48fc27c88a0aae4053",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "all five categories fall back to real local videos after three seconds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22637,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:37.065Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-eece2957bca2094faca2",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "five real themes persist and keep printed millimetres and SVG independent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12327,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:20.732Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-962ef0484c1a2d72cdf8",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion and missing View Transitions switch directly; system theme follows device",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2152,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:33.073Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-09530dca91ad1c74b7ff",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "navigation distinguishes current page from open overlay and returns focus with Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4639,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:35.242Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-1c331ec4505343fdbbc1",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "first task collapses the rail without hiding its progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:39.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-9af05b8e203f73e8f7b9",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "all five categories fall back to real local videos after three seconds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19981,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:34:43.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-746823d90c9ba9d07f24",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 41,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v5-introduction.spec.ts",
+      "file": "v5-introduction.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "首访两种入口不抢先加载影片，收回后启动漫游并保留侧栏入口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6621,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:24:59.761Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-00112d739925eaf58d16",
+          "file": "v5-introduction.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "真实短片可解码、有中文轨道，离开停止播放并可从侧栏重播",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6836,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:06.410Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-6f19c39b5f81a0f7c490",
+          "file": "v5-introduction.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "指南保留操作说明与五人分工，键盘切页及关闭焦点正确",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5073,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:13.273Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-c11d314b84628ae76507",
+          "file": "v5-introduction.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "短片与站内轻音乐互斥，保留音乐偏好并且不擅自恢复",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:18.372Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-a5341b5798b00e4762fa",
+          "file": "v5-introduction.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "媒体失败时仍可读文字和进入漫游",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5248,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:25.007Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-2614dcdffe03745a4d75",
+          "file": "v5-introduction.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "减少动态效果和缺失动画接口都能顺利进入",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10276,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:30.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-a3f089f16a21297374be",
+          "file": "v5-introduction.spec.ts",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "360像素首访和指南内容无横向溢出，字幕与封面能够加载",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6718,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:40.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-261fd05a956aac7aaa54",
+          "file": "v5-introduction.spec.ts",
+          "line": 123,
+          "column": 1
+        },
+        {
+          "title": "首访两种入口不抢先加载影片，收回后启动漫游并保留侧栏入口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:03.195Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-1dde99e732e5c15d8b49",
+          "file": "v5-introduction.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "真实短片可解码、有中文轨道，离开停止播放并可从侧栏重播",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4924,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:08.282Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-740539fbc863daf4825f",
+          "file": "v5-introduction.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "指南保留操作说明与五人分工，键盘切页及关闭焦点正确",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4051,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:13.223Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-51a4ac78ab085941d721",
+          "file": "v5-introduction.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "短片与站内轻音乐互斥，保留音乐偏好并且不擅自恢复",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4866,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:17.298Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-45de48f9fe06038bf209",
+          "file": "v5-introduction.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "媒体失败时仍可读文字和进入漫游",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3367,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:22.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-b18851c308c8882cf2d9",
+          "file": "v5-introduction.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "减少动态效果和缺失动画接口都能顺利进入",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4457,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:25.585Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-37a968431d2ff3a82cd8",
+          "file": "v5-introduction.spec.ts",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "360像素首访和指南内容无横向溢出，字幕与封面能够加载",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3614,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:30.064Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39099d7f35528e457e57-a08c51320c91f18d9985",
+          "file": "v5-introduction.spec.ts",
+          "line": 123,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workshop.spec.ts",
+      "file": "workshop.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15838,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:25:47.413Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-30435cc71d81d97c6100",
+          "file": "workshop.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:26:03.289Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-8f08667d58377f12a9d2",
+          "file": "workshop.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:26:16.615Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-31f6e7b56980f04b2929",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:26:22.651Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-42579870467a0bbb2df2",
+          "file": "workshop.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8073,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:26:39.521Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-9f8a7dbdf613cc4060d7",
+          "file": "workshop.spec.ts",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12767,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:33.729Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-c92bf077e7d0d2d1da1d",
+          "file": "workshop.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:46.514Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-4f9c13c7d7d4f59ed841",
+          "file": "workshop.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:35:57.471Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-455a5d0614b73ac27f23",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14234,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:36:02.349Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-e758ba81cd3f87deaffa",
+          "file": "workshop.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6097,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T06:36:16.607Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-9a75aae86f685c010921",
+          "file": "workshop.spec.ts",
+          "line": 139,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-28T06:18:20.109Z",
+    "duration": 1098895.5510000002,
+    "expected": 120,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

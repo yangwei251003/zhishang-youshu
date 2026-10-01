@@ -1,0 +1,188 @@
+{
+  "date": "2026-09-28T03:58:40.971Z",
+  "method": "Computed text/background pairs in real DOM. CSS gradients, SVG paths, opacity and photographic content additionally need visual review; this does not claim exhaustive pixel contrast certification.",
+  "checks": [
+    {
+      "theme": "plain",
+      "scene": "theme-settings",
+      "textNodes": 156,
+      "failures": []
+    },
+    {
+      "theme": "plain",
+      "scene": "music-hover",
+      "textNodes": 173,
+      "failures": []
+    },
+    {
+      "theme": "plain",
+      "scene": "workshop",
+      "textNodes": 138,
+      "failures": []
+    },
+    {
+      "theme": "plain",
+      "scene": "学习手册",
+      "textNodes": 176,
+      "failures": []
+    },
+    {
+      "theme": "plain",
+      "scene": "我的作品",
+      "textNodes": 158,
+      "failures": []
+    },
+    {
+      "theme": "plain",
+      "scene": "inspiration",
+      "textNodes": 183,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "theme-settings",
+      "textNodes": 156,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "music-hover",
+      "textNodes": 173,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "workshop",
+      "textNodes": 138,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "学习手册",
+      "textNodes": 176,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "我的作品",
+      "textNodes": 158,
+      "failures": []
+    },
+    {
+      "theme": "bamboo",
+      "scene": "inspiration",
+      "textNodes": 183,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "theme-settings",
+      "textNodes": 156,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "music-hover",
+      "textNodes": 173,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "workshop",
+      "textNodes": 138,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "学习手册",
+      "textNodes": 176,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "我的作品",
+      "textNodes": 158,
+      "failures": []
+    },
+    {
+      "theme": "lacquer",
+      "scene": "inspiration",
+      "textNodes": 183,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "theme-settings",
+      "textNodes": 156,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "music-hover",
+      "textNodes": 173,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "workshop",
+      "textNodes": 138,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "学习手册",
+      "textNodes": 176,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "我的作品",
+      "textNodes": 158,
+      "failures": []
+    },
+    {
+      "theme": "ink",
+      "scene": "inspiration",
+      "textNodes": 183,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "theme-settings",
+      "textNodes": 156,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "music-hover",
+      "textNodes": 173,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "workshop",
+      "textNodes": 138,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "学习手册",
+      "textNodes": 176,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "我的作品",
+      "textNodes": 158,
+      "failures": []
+    },
+    {
+      "theme": "indigo",
+      "scene": "inspiration",
+      "textNodes": 183,
+      "failures": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

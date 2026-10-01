@@ -1,0 +1,271 @@
+{
+  "date": "2026-09-28",
+  "browser": "installed Chrome, independent headless sessions",
+  "scope": "Public official embedded players; no shared user desktop, login, download, or re-hosting",
+  "checked": 10,
+  "passed": 10,
+  "results": [
+    {
+      "bvid": "BV1QV4y1w7W8",
+      "source": "https://www.bilibili.com/video/BV1QV4y1w7W8/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 97,
+        "currentTime": 0.346
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 97,
+        "currentTime": 3.212652,
+        "videoWidth": 360,
+        "videoHeight": 640,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": false
+    },
+    {
+      "bvid": "BV15Q4y1t78d",
+      "source": "https://www.bilibili.com/video/BV15Q4y1t78d/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 176.833,
+        "currentTime": 0.223
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 176.833,
+        "currentTime": 3.00921,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": false
+    },
+    {
+      "bvid": "BV1q84y1q7CV",
+      "source": "https://www.bilibili.com/video/BV1q84y1q7CV/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 638.86,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 638.86,
+        "currentTime": 2.734383,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV1Gt4y1u7vP",
+      "source": "https://www.bilibili.com/video/BV1Gt4y1u7vP/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 724,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 724,
+        "currentTime": 2.742831,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV1U24y1k7hX",
+      "source": "https://www.bilibili.com/video/BV1U24y1k7hX/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 330,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 330,
+        "currentTime": 2.069318,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV1T14y1T7kN",
+      "source": "https://www.bilibili.com/video/BV1T14y1T7kN/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 744,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 744,
+        "currentTime": 2.424849,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV1864y1P7Jh",
+      "source": "https://www.bilibili.com/video/BV1864y1P7Jh/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 1248,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 1248,
+        "currentTime": 3.519808,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV1tV4y1P7ns",
+      "source": "https://www.bilibili.com/video/BV1tV4y1P7ns/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 660,
+        "currentTime": 0
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 660,
+        "currentTime": 2.779882,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": true
+    },
+    {
+      "bvid": "BV183411N7B3",
+      "source": "https://www.bilibili.com/video/BV183411N7B3/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 113,
+        "currentTime": 0.379
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 113,
+        "currentTime": 3.30422,
+        "videoWidth": 640,
+        "videoHeight": 360,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": false
+    },
+    {
+      "bvid": "BV1XP4y1o7b8",
+      "source": "https://www.bilibili.com/video/BV1XP4y1o7b8/",
+      "method": "Headless Chrome: official player loads paused/muted; explicit HTMLVideoElement.play(); verify decoded frames and >2 seconds elapsed. Not a full viewing or embedded UI click test.",
+      "httpStatus": 200,
+      "before": {
+        "paused": true,
+        "muted": true,
+        "readyState": 4,
+        "duration": 306,
+        "currentTime": 0.246
+      },
+      "after": {
+        "paused": false,
+        "muted": true,
+        "readyState": 4,
+        "duration": 306,
+        "currentTime": 3.371583,
+        "videoWidth": 640,
+        "videoHeight": 359,
+        "error": null
+      },
+      "pass": true,
+      "strictZeroTimestampAssertion": false
+    }
+  ],
+  "criteria": "Initial paused=true and muted=true; explicit play advances currentTime by >1.5 seconds with decoded frames. A paused poster frame may start at a nonzero timestamp; strictZeroTimestampAssertion is retained as raw evidence and is not an autoplay assertion.",
+  "screenshot": {
+    "bvid": "BV1U24y1k7hX",
+    "path": "media-playback.png",
+    "state": {
+      "currentTime": 93.050785,
+      "paused": false,
+      "muted": true,
+      "readyState": 4
+    },
+    "note": "Additional sample from inside the double-happiness lesson; sought to 90 seconds, then decoded playback beyond 93 seconds."
+  }
+}

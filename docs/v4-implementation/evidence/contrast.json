@@ -1,0 +1,1441 @@
+{
+  "date": "2026-09-28T06:37:02.096Z",
+  "results": [
+    {
+      "theme": "plain",
+      "label": "正文 / 纸面",
+      "ratio": 14.123,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "正文 / 页底",
+      "ratio": 12.637,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "次要 / 纸面",
+      "ratio": 7.946,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "次要 / 页底",
+      "ratio": 7.11,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "弱提示 / 纸面",
+      "ratio": 6.65,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "弱提示 / 页底",
+      "ratio": 5.95,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "按钮文字 / 品牌底",
+      "ratio": 6.003,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "按钮文字 / 品牌按下",
+      "ratio": 8.406,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "朱砂正文强调 / 纸面",
+      "ratio": 7.183,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "朱砂正文强调 / 页底",
+      "ratio": 6.427,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "靛青辅助 / 纸面",
+      "ratio": 7.267,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "赭石辅助 / 纸面",
+      "ratio": 5.293,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "控件边框 / 纸面（非文本 3:1）",
+      "ratio": 3.539,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "焦点环 / 纸面（非文本 3:1）",
+      "ratio": 8.406,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "分隔线可辨 / 页底（装饰 ≥1.5）",
+      "ratio": 1.708,
+      "minimum": 1.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "剪纸红纸 / 纸面（图形 3:1）",
+      "ratio": 5.271,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "剪纸红纸 / 页底（图形 3:1）",
+      "ratio": 4.716,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "留标记 / 纸面",
+      "ratio": 7.267,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "剪标记 / 纸面",
+      "ratio": 6.003,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "纸面 / 页底（层次）",
+      "ratio": 1.118,
+      "minimum": 1.05,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "纸面 / 凹陷底（层次）",
+      "ratio": 1.17,
+      "minimum": 1.03,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-primary/hover-bg",
+      "ratio": 12.072,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-secondary/hover-bg",
+      "ratio": 6.792,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-muted/hover-bg",
+      "ratio": 5.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "brand-text/hover-bg",
+      "ratio": 6.14,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-primary/active-bg",
+      "ratio": 12.171,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-secondary/active-bg",
+      "ratio": 6.847,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-muted/active-bg",
+      "ratio": 5.73,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "brand-text/active-bg",
+      "ratio": 6.19,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-primary/bg-sunken",
+      "ratio": 12.072,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-secondary/bg-sunken",
+      "ratio": 6.792,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-muted/bg-sunken",
+      "ratio": 5.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "brand-text/bg-sunken",
+      "ratio": 6.14,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-primary/disabled-bg",
+      "ratio": 12.072,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-secondary/disabled-bg",
+      "ratio": 6.792,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "text-muted/disabled-bg",
+      "ratio": 5.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "brand-text/disabled-bg",
+      "ratio": 6.14,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "disabled",
+      "ratio": 5.684,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "selected border",
+      "ratio": 6.19,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "warning",
+      "ratio": 5.293,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "plain",
+      "label": "danger",
+      "ratio": 7.183,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "正文 / 纸面",
+      "ratio": 14.259,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "正文 / 页底",
+      "ratio": 12.884,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "次要 / 纸面",
+      "ratio": 8.063,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "次要 / 页底",
+      "ratio": 7.285,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "弱提示 / 纸面",
+      "ratio": 6.127,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "弱提示 / 页底",
+      "ratio": 5.536,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "按钮文字 / 品牌底",
+      "ratio": 6.476,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "按钮文字 / 品牌按下",
+      "ratio": 8.917,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "朱砂正文强调 / 纸面",
+      "ratio": 7.426,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "朱砂正文强调 / 页底",
+      "ratio": 6.71,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "靛青辅助 / 纸面",
+      "ratio": 6.288,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "赭石辅助 / 纸面",
+      "ratio": 5.377,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "控件边框 / 纸面（非文本 3:1）",
+      "ratio": 3.379,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "焦点环 / 纸面（非文本 3:1）",
+      "ratio": 8.835,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "分隔线可辨 / 页底（装饰 ≥1.5）",
+      "ratio": 1.621,
+      "minimum": 1.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "剪纸红纸 / 纸面（图形 3:1）",
+      "ratio": 5.755,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "剪纸红纸 / 页底（图形 3:1）",
+      "ratio": 5.2,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "留标记 / 纸面",
+      "ratio": 6.288,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "剪标记 / 纸面",
+      "ratio": 6.417,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "纸面 / 页底（层次）",
+      "ratio": 1.107,
+      "minimum": 1.05,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "纸面 / 凹陷底（层次）",
+      "ratio": 1.177,
+      "minimum": 1.03,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-primary/hover-bg",
+      "ratio": 12.119,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-secondary/hover-bg",
+      "ratio": 6.853,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-muted/hover-bg",
+      "ratio": 5.207,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "brand-text/hover-bg",
+      "ratio": 6.311,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-primary/active-bg",
+      "ratio": 12.008,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-secondary/active-bg",
+      "ratio": 6.79,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-muted/active-bg",
+      "ratio": 5.159,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "brand-text/active-bg",
+      "ratio": 6.254,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-primary/bg-sunken",
+      "ratio": 12.119,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-secondary/bg-sunken",
+      "ratio": 6.853,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-muted/bg-sunken",
+      "ratio": 5.207,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "brand-text/bg-sunken",
+      "ratio": 6.311,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-primary/disabled-bg",
+      "ratio": 12.119,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-secondary/disabled-bg",
+      "ratio": 6.853,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "text-muted/disabled-bg",
+      "ratio": 5.207,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "brand-text/disabled-bg",
+      "ratio": 6.311,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "disabled",
+      "ratio": 5.207,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "selected border",
+      "ratio": 6.254,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "warning",
+      "ratio": 5.377,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "bamboo",
+      "label": "danger",
+      "ratio": 7.426,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "正文 / 纸面",
+      "ratio": 13.945,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "正文 / 页底",
+      "ratio": 11.045,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "次要 / 纸面",
+      "ratio": 8.505,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "次要 / 页底",
+      "ratio": 6.736,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "弱提示 / 纸面",
+      "ratio": 6.733,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "弱提示 / 页底",
+      "ratio": 5.332,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "按钮文字 / 品牌底",
+      "ratio": 6.95,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "按钮文字 / 品牌按下",
+      "ratio": 9.484,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "朱砂正文强调 / 纸面",
+      "ratio": 7.608,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "朱砂正文强调 / 页底",
+      "ratio": 6.025,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "靛青辅助 / 纸面",
+      "ratio": 6.622,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "赭石辅助 / 纸面",
+      "ratio": 5.856,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "控件边框 / 纸面（非文本 3:1）",
+      "ratio": 4.103,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "焦点环 / 纸面（非文本 3:1）",
+      "ratio": 9.4,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "分隔线可辨 / 页底（装饰 ≥1.5）",
+      "ratio": 1.568,
+      "minimum": 1.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "剪纸红纸 / 纸面（图形 3:1）",
+      "ratio": 5.496,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "剪纸红纸 / 页底（图形 3:1）",
+      "ratio": 4.353,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "留标记 / 纸面",
+      "ratio": 6.622,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "剪标记 / 纸面",
+      "ratio": 6.888,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "纸面 / 页底（层次）",
+      "ratio": 1.263,
+      "minimum": 1.05,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "纸面 / 凹陷底（层次）",
+      "ratio": 1.44,
+      "minimum": 1.03,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-primary/hover-bg",
+      "ratio": 9.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-secondary/hover-bg",
+      "ratio": 5.906,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-muted/hover-bg",
+      "ratio": 4.675,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "brand-text/hover-bg",
+      "ratio": 5.283,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-primary/active-bg",
+      "ratio": 12.27,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-secondary/active-bg",
+      "ratio": 7.484,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-muted/active-bg",
+      "ratio": 5.924,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "brand-text/active-bg",
+      "ratio": 6.694,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-primary/bg-sunken",
+      "ratio": 9.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-secondary/bg-sunken",
+      "ratio": 5.906,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-muted/bg-sunken",
+      "ratio": 4.675,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "brand-text/bg-sunken",
+      "ratio": 5.283,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-primary/disabled-bg",
+      "ratio": 9.684,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-secondary/disabled-bg",
+      "ratio": 5.906,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "text-muted/disabled-bg",
+      "ratio": 4.675,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "brand-text/disabled-bg",
+      "ratio": 5.283,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "disabled",
+      "ratio": 4.675,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "selected border",
+      "ratio": 6.694,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "warning",
+      "ratio": 5.856,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "lacquer",
+      "label": "danger",
+      "ratio": 7.608,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "正文 / 纸面",
+      "ratio": 14.117,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "正文 / 页底",
+      "ratio": 15.81,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "次要 / 纸面",
+      "ratio": 9.474,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "次要 / 页底",
+      "ratio": 10.609,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "弱提示 / 纸面",
+      "ratio": 6.974,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "弱提示 / 页底",
+      "ratio": 7.81,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "按钮文字 / 品牌底",
+      "ratio": 4.98,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "按钮文字 / 品牌按下",
+      "ratio": 6.122,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "朱砂正文强调 / 纸面",
+      "ratio": 6.719,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "朱砂正文强调 / 页底",
+      "ratio": 7.525,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "靛青辅助 / 纸面",
+      "ratio": 7.49,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "赭石辅助 / 纸面",
+      "ratio": 6.407,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "控件边框 / 纸面（非文本 3:1）",
+      "ratio": 3.421,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "焦点环 / 纸面（非文本 3:1）",
+      "ratio": 6.719,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "分隔线可辨 / 页底（装饰 ≥1.5）",
+      "ratio": 1.715,
+      "minimum": 1.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "剪纸红纸 / 纸面（图形 3:1）",
+      "ratio": 3.941,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "剪纸红纸 / 页底（图形 3:1）",
+      "ratio": 4.414,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "留标记 / 纸面",
+      "ratio": 7.49,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "剪标记 / 纸面",
+      "ratio": 6.719,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "纸面 / 页底（层次）",
+      "ratio": 1.12,
+      "minimum": 1.05,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "纸面 / 凹陷底（层次）",
+      "ratio": 1.079,
+      "minimum": 1.03,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-primary/hover-bg",
+      "ratio": 15.237,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-secondary/hover-bg",
+      "ratio": 10.225,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-muted/hover-bg",
+      "ratio": 7.527,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "brand-text/hover-bg",
+      "ratio": 7.252,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-primary/active-bg",
+      "ratio": 13.124,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-secondary/active-bg",
+      "ratio": 8.807,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-muted/active-bg",
+      "ratio": 6.483,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "brand-text/active-bg",
+      "ratio": 6.246,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-primary/bg-sunken",
+      "ratio": 15.237,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-secondary/bg-sunken",
+      "ratio": 10.225,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-muted/bg-sunken",
+      "ratio": 7.527,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "brand-text/bg-sunken",
+      "ratio": 7.252,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-primary/disabled-bg",
+      "ratio": 15.237,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-secondary/disabled-bg",
+      "ratio": 10.225,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "text-muted/disabled-bg",
+      "ratio": 7.527,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "brand-text/disabled-bg",
+      "ratio": 7.252,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "disabled",
+      "ratio": 7.527,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "selected border",
+      "ratio": 6.246,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "warning",
+      "ratio": 6.407,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "ink",
+      "label": "danger",
+      "ratio": 6.719,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "正文 / 纸面",
+      "ratio": 13.555,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "正文 / 页底",
+      "ratio": 15.551,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "次要 / 纸面",
+      "ratio": 9.485,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "次要 / 页底",
+      "ratio": 10.881,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "弱提示 / 纸面",
+      "ratio": 7.227,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "弱提示 / 页底",
+      "ratio": 8.292,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "按钮文字 / 品牌底",
+      "ratio": 4.98,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "按钮文字 / 品牌按下",
+      "ratio": 6.122,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "朱砂正文强调 / 纸面",
+      "ratio": 6.422,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "朱砂正文强调 / 页底",
+      "ratio": 7.367,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "靛青辅助 / 纸面",
+      "ratio": 8.143,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "赭石辅助 / 纸面",
+      "ratio": 5.675,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "控件边框 / 纸面（非文本 3:1）",
+      "ratio": 3.39,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "焦点环 / 纸面（非文本 3:1）",
+      "ratio": 6.422,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "分隔线可辨 / 页底（装饰 ≥1.5）",
+      "ratio": 1.83,
+      "minimum": 1.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "剪纸红纸 / 纸面（图形 3:1）",
+      "ratio": 4.138,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "剪纸红纸 / 页底（图形 3:1）",
+      "ratio": 4.747,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "留标记 / 纸面",
+      "ratio": 8.143,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "剪标记 / 纸面",
+      "ratio": 6.422,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "纸面 / 页底（层次）",
+      "ratio": 1.147,
+      "minimum": 1.05,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "纸面 / 凹陷底（层次）",
+      "ratio": 1.093,
+      "minimum": 1.03,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-primary/hover-bg",
+      "ratio": 14.81,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-secondary/hover-bg",
+      "ratio": 10.363,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-muted/hover-bg",
+      "ratio": 7.897,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "brand-text/hover-bg",
+      "ratio": 7.017,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-primary/active-bg",
+      "ratio": 13.069,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-secondary/active-bg",
+      "ratio": 9.145,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-muted/active-bg",
+      "ratio": 6.968,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "brand-text/active-bg",
+      "ratio": 6.192,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-primary/bg-sunken",
+      "ratio": 14.81,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-secondary/bg-sunken",
+      "ratio": 10.363,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-muted/bg-sunken",
+      "ratio": 7.897,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "brand-text/bg-sunken",
+      "ratio": 7.017,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-primary/disabled-bg",
+      "ratio": 14.81,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-secondary/disabled-bg",
+      "ratio": 10.363,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "text-muted/disabled-bg",
+      "ratio": 7.897,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "brand-text/disabled-bg",
+      "ratio": 7.017,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "disabled",
+      "ratio": 7.897,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "selected border",
+      "ratio": 6.192,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "warning",
+      "ratio": 5.675,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "theme": "indigo",
+      "label": "danger",
+      "ratio": 6.422,
+      "minimum": 4.5,
+      "pass": true
+    }
+  ],
+  "failures": 0
+}

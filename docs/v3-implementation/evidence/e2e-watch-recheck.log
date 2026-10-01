@@ -1,0 +1,17 @@
+
+> zhishang-youshu@0.3.0 test:e2e
+> playwright test --grep external network blocked|V3 transfer-happiness：预测 --output=artifacts/e2e-v3-watch-recheck
+
+
+Running 4 tests using 1 worker
+
+(node:59632) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chrome] › tests\e2e\v3-content.spec.ts:44:31 › V3 transfer-happiness：预测旁路锁定、原生备份、留剪标记与打印模板 (10.3s)
+  ok 2 [chrome] › tests\e2e\v3-resilience.spec.ts:56:1 › external network blocked: prediction, repair and export remain entirely local (6.2s)
+(node:32956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 [edge] › tests\e2e\v3-content.spec.ts:44:31 › V3 transfer-happiness：预测旁路锁定、原生备份、留剪标记与打印模板 (11.0s)
+  ok 4 [edge] › tests\e2e\v3-resilience.spec.ts:56:1 › external network blocked: prediction, repair and export remain entirely local (7.0s)
+
+  4 passed (40.4s)

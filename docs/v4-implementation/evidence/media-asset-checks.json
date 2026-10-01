@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-28",
+  "pass": true,
+  "checks": [
+    {
+      "path": "public\\audio\\zs-track-1.mp3",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 3501626,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\audio\\zs-track-2.mp3",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 1882036,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\audio\\zs-track-3.mp3",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 3501642,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\audio\\zs-track-4.mp3",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 3066948,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\videos\\snowflake-local.mp4",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 6263869,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\videos\\flower-local.mp4",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 6984019,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\videos\\happiness-local.mp4",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 6957273,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\videos\\animal-local.mp4",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 7164004,
+      "sha256Verified": true
+    },
+    {
+      "path": "public\\videos\\border-local.mp4",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "bytes": 7786096,
+      "sha256Verified": true
+    }
+  ]
+}

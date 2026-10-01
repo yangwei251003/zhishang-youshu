@@ -1,0 +1,252 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/v2-lifecycle.spec.ts",
+      "tests/e2e/workshop.spec.ts",
+      "-g",
+      "同课重做与恢复|分步展开、基础反馈",
+      "--output=docs/v2-implementation/evidence/confirmation-output",
+      "--reporter=line,json"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/docs/v2-implementation/evidence/confirmation-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/docs/v2-implementation/evidence/confirmation-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5188",
+      "url": "http://127.0.0.1:5188",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "v2-lifecycle.spec.ts",
+      "file": "v2-lifecycle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11587,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:30:02.182Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8bca2e6da3d1ce743a5a-81b7b4b63ff5ecbf3ed7",
+          "file": "v2-lifecycle.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12979,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:30:20.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8bca2e6da3d1ce743a5a-608656b1ab31c6fc049c",
+          "file": "v2-lifecycle.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workshop.spec.ts",
+      "file": "workshop.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:30:14.425Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-31f6e7b56980f04b2929",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4221,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:30:34.180Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-455a5d0614b73ac27f23",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-26T17:30:01.344Z",
+    "duration": 37950.282,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "date": "2026-09-27T17:24:10.918Z",
+  "files": [
+    {
+      "path": "src\\App.tsx",
+      "before": "0a7200781ea4a93052abe633611a5d17a734dbe5b304182931b1680f0af149db",
+      "after": "4f36b49016fdf944eda09ad2f5f641ca768aa340372642eb8d36e82085e621ce",
+      "changed": true
+    },
+    {
+      "path": "src\\components\\Dialog.tsx",
+      "before": "62378f47447379b802f3a67f9f61a937ece314e444aecd3923111d1e4e257615",
+      "after": "62378f47447379b802f3a67f9f61a937ece314e444aecd3923111d1e4e257615",
+      "changed": false
+    },
+    {
+      "path": "src\\components\\GoalMarkers.tsx",
+      "before": "6001251c086ca56d54370683044d8318fa98536a0003b7ddcc94d4e17fe5d464",
+      "after": "6001251c086ca56d54370683044d8318fa98536a0003b7ddcc94d4e17fe5d464",
+      "changed": false
+    },
+    {
+      "path": "src\\components\\OnboardingTour.css",
+      "before": "fc4fa4e3aa6eb56a46976c4c335e1c3f16f8ac9c8ffd85dae02cc0c26705e8cb",
+      "after": "cec0486fe3e485ec344692f5e93ef29c964ba94f1bd5ab0d22bfbe23359aed5e",
+      "changed": true
+    },
+    {
+      "path": "src\\components\\OnboardingTour.tsx",
+      "before": "20782f50e2f95862a6b9af5b1f29aea8d55872dae5be4841ad0c3714baaf788c",
+      "after": "3c981bbc0e866b896b39c4ff70f764658ba2aa4ece908ab1201fd6d3e0cc8c4c",
+      "changed": true
+    },
+    {
+      "path": "src\\components\\PaperCanvas.tsx",
+      "before": "2a3587a10597a2abcc167225bb6de7226d2b75cadf842698a89c049aef65145c",
+      "after": "e1621dca5af2df79a1bc39dad35728ca691cd4d729a693dc2e378c90a7a4913a",
+      "changed": true
+    },
+    {
+      "path": "src\\components\\WorkshopOrnaments.tsx",
+      "before": "6211e59e53fc105dcd61cc19d13d701597a2c9600b4b399018e9baa53be8b97e",
+      "after": "6211e59e53fc105dcd61cc19d13d701597a2c9600b4b399018e9baa53be8b97e",
+      "changed": false
+    },
+    {
+      "path": "src\\ErrorBoundary.tsx",
+      "before": "aed051f745de6e8d469e1fe3e4f891cf668360fad80d606a4a27f16ba500a2f0",
+      "after": "aed051f745de6e8d469e1fe3e4f891cf668360fad80d606a4a27f16ba500a2f0",
+      "changed": false
+    },
+    {
+      "path": "src\\geometry\\client.ts",
+      "before": "c74cdd4457c97392cd2f3f435f60a1df4610f40283d0eb760c4c1d289a930cbe",
+      "after": "c74cdd4457c97392cd2f3f435f60a1df4610f40283d0eb760c4c1d289a930cbe",
+      "changed": false
+    },
+    {
+      "path": "src\\geometry\\engine.ts",
+      "before": "152ab56044119e75a249017381e30135e40bb4813e74290f0dc49fb2abc0d298",
+      "after": "d006d92fd80efd27e617ed3ce3c1d4d197918b0d7a808629cddb153f9c85c86e",
+      "changed": true
+    },
+    {
+      "path": "src\\geometry\\kernel.ts",
+      "before": "b6d6dbf731dcc8362238e85142eb711aa80b3797d066dcebafbbabb8bd617867",
+      "after": "b6d6dbf731dcc8362238e85142eb711aa80b3797d066dcebafbbabb8bd617867",
+      "changed": false
+    },
+    {
+      "path": "src\\geometry\\worker.ts",
+      "before": "a43fa55e4d44672011250e2503b72d543059f9575bf861535b3946865528e6a5",
+      "after": "e7ed4abc004f51088d6922d68f3b92ca5d82ac276afd2934243b5f5474511310",
+      "changed": true
+    },
+    {
+      "path": "src\\io\\files.ts",
+      "before": "ecc87c0c0f90ec27f6f0bc9bd0fe2aba0fc5be6bc96f1d28b064f5ba9aef9679",
+      "after": "c2b470c45a5c42e5f6bcee90073736ad5db3a60d5c802d54f0ffeaaddf5e5159",
+      "changed": true
+    },
+    {
+      "path": "src\\io\\learning.ts",
+      "before": "fc97b379899d983a7eed2306ba958198c373f7962f33c71a5795083e126008db",
+      "after": "fc97b379899d983a7eed2306ba958198c373f7962f33c71a5795083e126008db",
+      "changed": false
+    },
+    {
+      "path": "src\\io\\storage.ts",
+      "before": "1f00bddadad4ced1f4bd368d785c09956d04c3337004878d68931a8850fc7691",
+      "after": "25561484ef7ec72e6ab75e6695a3a39243377d11beefb6969ad204cf595ec4f6",
+      "changed": true
+    },
+    {
+      "path": "src\\lessons\\index.ts",
+      "before": "8d16127014b5ac82f95f95ddfc0fe494a448bd934c85d44cb7e3eacc1885bcfc",
+      "after": "c7f64fbfaf793d1a3f5e4f9f0a7ac397620baf31a86d2bf0562b981615b69714",
+      "changed": true
+    },
+    {
+      "path": "src\\main.tsx",
+      "before": "56967c7d302e619dedf3c1a7d2303c8aa583dac73886b201b844176869e713da",
+      "after": "56967c7d302e619dedf3c1a7d2303c8aa583dac73886b201b844176869e713da",
+      "changed": false
+    },
+    {
+      "path": "src\\styles.css",
+      "before": "5e0978604ec73ed3fd895a7f1ee9c70f0cb65ebe882f6630592e31522cdaa921",
+      "after": "58fb7bcd4ad908a3c025df2ba060e3e197489159a639a4f676cf76768359aa8e",
+      "changed": true
+    },
+    {
+      "path": "src\\types.ts",
+      "before": "967ddd148881f3598ce3612d6a508addf192c4cd8d6966f13638f7c9d70419b5",
+      "after": "d3bd8a68a26a91eeb6ac1f29c9471ad2bdca1ea98a038c0fba6807988c4cfae3",
+      "changed": true
+    },
+    {
+      "path": "tests\\e2e\\platform.spec.ts",
+      "before": "b2be2de04540f03d531fa88c95e99c8848f436c214a8d0b72c2b44a730d6a50f",
+      "after": "b2be2de04540f03d531fa88c95e99c8848f436c214a8d0b72c2b44a730d6a50f",
+      "changed": false
+    },
+    {
+      "path": "tests\\e2e\\tour.spec.ts",
+      "before": "c9f946f5ee064863dfdbf625bb9e0517fe8a427a2bc5b69f13b20a658e66689b",
+      "after": "c9f946f5ee064863dfdbf625bb9e0517fe8a427a2bc5b69f13b20a658e66689b",
+      "changed": false
+    },
+    {
+      "path": "tests\\e2e\\v2-lifecycle.spec.ts",
+      "before": "3e190d81a4cafed432863a954cbf90d0cab91ade1616dde27b03019be7aa3cc1",
+      "after": "3e190d81a4cafed432863a954cbf90d0cab91ade1616dde27b03019be7aa3cc1",
+      "changed": false
+    },
+    {
+      "path": "tests\\e2e\\v2.spec.ts",
+      "before": "ca14ed1142b86e4bd42185254d4e4a8d1e46a0008f96141f267bca7db89a9bc4",
+      "after": "ca14ed1142b86e4bd42185254d4e4a8d1e46a0008f96141f267bca7db89a9bc4",
+      "changed": false
+    },
+    {
+      "path": "tests\\e2e\\workshop.spec.ts",
+      "before": "e1debfab833d1266dbd7890d6908d38d7b0e7be199106d8229ec32c1d19704fd",
+      "after": "e1debfab833d1266dbd7890d6908d38d7b0e7be199106d8229ec32c1d19704fd",
+      "changed": false
+    },
+    {
+      "path": "tests\\unit\\geometry-client.test.ts",
+      "before": "34737425e2ca3960e42b68e92c4f648b7d2debf2c0b0d0f4476215e31a77e0bb",
+      "after": "34737425e2ca3960e42b68e92c4f648b7d2debf2c0b0d0f4476215e31a77e0bb",
+      "changed": false
+    },
+    {
+      "path": "tests\\unit\\geometry.test.ts",
+      "before": "5f665b1226030740cb07b916f30ec8cd4c92e1ce3b2addc1b1a406a77f55b9c9",
+      "after": "5f665b1226030740cb07b916f30ec8cd4c92e1ce3b2addc1b1a406a77f55b9c9",
+      "changed": false
+    },
+    {
+      "path": "tests\\unit\\integration-lessons.test.ts",
+      "before": "7b61f3bea16f9a844e490c09979b5ed60c5ed05756643769209d5f8768f64263",
+      "after": "4d12ddef120793fa2fb1a6f2bd5a4839fb0e28e8a9672090040cc02a53bea2a7",
+      "changed": true
+    },
+    {
+      "path": "tests\\unit\\io.test.ts",
+      "before": "5c594d4f3e5cc9fa282adb59492a2cda45614bd4996272f7c428b11dd1ebb713",
+      "after": "5c594d4f3e5cc9fa282adb59492a2cda45614bd4996272f7c428b11dd1ebb713",
+      "changed": false
+    },
+    {
+      "path": "tests\\unit\\v2-markers.test.ts",
+      "before": "3fbd8dce6057389d2b30dd6475a082211e5b8bc31d514a6b69209c30be3c6217",
+      "after": "3fbd8dce6057389d2b30dd6475a082211e5b8bc31d514a6b69209c30be3c6217",
+      "changed": false
+    },
+    {
+      "path": "tests\\unit\\v2-records.test.ts",
+      "before": "e31e1b16d49ebb0b02f074d487ce507e81615ecbc6aece2f49f76cfdef1ea005",
+      "after": "e31e1b16d49ebb0b02f074d487ce507e81615ecbc6aece2f49f76cfdef1ea005",
+      "changed": false
+    },
+    {
+      "path": "scripts\\capture-workshop.mjs",
+      "before": "e6bd86dd494f03d54792a03a0d89665ef038d3f996291287b2e47015cb157d67",
+      "after": "e6bd86dd494f03d54792a03a0d89665ef038d3f996291287b2e47015cb157d67",
+      "changed": false
+    },
+    {
+      "path": "scripts\\collect-licenses.mjs",
+      "before": "1656e3eaa6da2f7b39a509f439189a53cc8a16c6589e71ca777e28d6370adb96",
+      "after": "a636dbb4797e8021d058a230158b3d6eb9649ec1942f1a0544cd365657ea42c0",
+      "changed": true
+    },
+    {
+      "path": "scripts\\export-samples.ts",
+      "before": "6919c8add8a4e98b8145c6daa6e2f65867e009689baf0a03a704445c1c3841df",
+      "after": "502e81ed9c120fcc4c7933d1198a811f034905a8287ab1046cbe420e81498acd",
+      "changed": true
+    },
+    {
+      "path": "scripts\\package-release.mjs",
+      "before": "09ec40ea7a2aa36f8551bd40e67a4d59bb968a8c29971f6eda3a5e29500eea93",
+      "after": "ad07e096e08aeac75707877b1893f257355a6e363ac111653ae7827f8e395cad",
+      "changed": true
+    },
+    {
+      "path": "scripts\\record-demo.mjs",
+      "before": "3e6d87fba7f99aa0bc8e3cd9e4d82e27ad0b9cfc9cc665e95f25deb2b36faa51",
+      "after": "3e6d87fba7f99aa0bc8e3cd9e4d82e27ad0b9cfc9cc665e95f25deb2b36faa51",
+      "changed": false
+    },
+    {
+      "path": "scripts\\render-print-samples.mjs",
+      "before": "129435bca6d5c22f7974e26f2f8831ba482dbd31733862d52ce1f94cd9e93cf8",
+      "after": "129435bca6d5c22f7974e26f2f8831ba482dbd31733862d52ce1f94cd9e93cf8",
+      "changed": false
+    },
+    {
+      "path": "scripts\\serve.mjs",
+      "before": "0896d4d2ead78f3c79706e8031da2728ca3f016d4e9130bbaf2d0f268e2129ea",
+      "after": "26383838dc26e428a8e66c739629080a7b4f4ebd6a5c9ff1e527dfb5d94ef6ad",
+      "changed": true
+    },
+    {
+      "path": "scripts\\v2-evidence.mjs",
+      "before": "f10386ed32d596c4e90d3604de857739ecbe1f6ba5de3915bc4ce582f6049203",
+      "after": "f10386ed32d596c4e90d3604de857739ecbe1f6ba5de3915bc4ce582f6049203",
+      "changed": false
+    },
+    {
+      "path": "scripts\\v2-hashes.mjs",
+      "before": "2c77c8d7a328dcd012bd7c734feee1ebe4c8f95cbe06f008dd0bcdb3baf9c683",
+      "after": "2c77c8d7a328dcd012bd7c734feee1ebe4c8f95cbe06f008dd0bcdb3baf9c683",
+      "changed": false
+    },
+    {
+      "path": "scripts\\v2-screenshots.mjs",
+      "before": "5d3d39d0f424d3ab73386430de3f649c9a9a320997dfe999677962e229a40225",
+      "after": "5d3d39d0f424d3ab73386430de3f649c9a9a320997dfe999677962e229a40225",
+      "changed": false
+    },
+    {
+      "path": "scripts\\v2-tour-check.mjs",
+      "before": "573a6305db8f20d08df1662a0b9959eeefb96eb9fe78710214567d9547d2049b",
+      "after": "573a6305db8f20d08df1662a0b9959eeefb96eb9fe78710214567d9547d2049b",
+      "changed": false
+    },
+    {
+      "path": "scripts\\v2-validation-summary.mjs",
+      "before": "75816e3847b0ba42cdbb1f75a6203fac1b6edbf7b48cbf998d5c65015ca11a50",
+      "after": "75816e3847b0ba42cdbb1f75a6203fac1b6edbf7b48cbf998d5c65015ca11a50",
+      "changed": false
+    },
+    {
+      "path": "scripts\\v3-baseline.mjs",
+      "before": "9c4b9e4a98a7f107fa6ebcefeaf4a25b0fd798f7557eedbb9d336289f2bd0242",
+      "after": "358914661c2709b4e97da31d6db2bfd52953222cab933f305ec43b157a424d70",
+      "changed": true
+    },
+    {
+      "path": "scripts\\verify-production.mjs",
+      "before": "e5f0991fc9557cf07972ceb9401c144f28125934599d9de1d5774d3c8161c0ff",
+      "after": "a904a40fd025c1998af331045584690fcd77790e0b80cdd547e0730aba90bb98",
+      "changed": true
+    }
+  ]
+}

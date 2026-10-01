@@ -1,0 +1,48 @@
+{
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:5192/favicon.svg",
+      "error": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  ],
+  "ripple": {
+    "transitions": 1,
+    "animations": [
+      {
+        "frames": {
+          "clipPath": [
+            "circle(0px at 809px 519px)",
+            "circle(961.1669990173405px at 809px 519px)"
+          ]
+        },
+        "options": {
+          "duration": 520,
+          "easing": "ease-out",
+          "pseudoElement": "::view-transition-new(root)"
+        }
+      }
+    ],
+    "lastClick": {
+      "x": 809,
+      "y": 519
+    }
+  },
+  "reducedMotionWithSupportedApi": true,
+  "unsupportedApiWithoutReducedMotion": true,
+  "offline": {
+    "method": "Playwright context.setOffline(true) after application, local fonts and Worker loaded; includes localhost network disconnection.",
+    "checks": [
+      "create cut",
+      "Worker geometry",
+      "undo",
+      "redo",
+      "local autosave",
+      "JSON download schemaVersion 1",
+      "print popup with 100 mm ruler and white background"
+    ]
+  },
+  "errors": [
+    "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  ],
+  "date": "2026-09-28T04:05:19.146Z"
+}

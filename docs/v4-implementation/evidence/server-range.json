@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "path": "/audio/zs-track-1.mp3",
+      "status": 206,
+      "length": 200,
+      "contentRange": "bytes 100-299/3501626",
+      "mime": "audio/mpeg",
+      "suffixBytes": 20,
+      "invalid": 416
+    },
+    {
+      "path": "/videos/snowflake-local.mp4",
+      "status": 206,
+      "length": 200,
+      "contentRange": "bytes 100-299/6263869",
+      "mime": "video/mp4",
+      "suffixBytes": 20,
+      "invalid": 416
+    }
+  ],
+  "v3Unchanged": true
+}

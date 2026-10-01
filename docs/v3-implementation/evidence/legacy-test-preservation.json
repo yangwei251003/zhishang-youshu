@@ -1,0 +1,68 @@
+[
+  {
+    "path": "tests\\e2e\\platform.spec.ts",
+    "original": "b2be2de04540f03d531fa88c95e99c8848f436c214a8d0b72c2b44a730d6a50f",
+    "current": "b2be2de04540f03d531fa88c95e99c8848f436c214a8d0b72c2b44a730d6a50f",
+    "identical": true
+  },
+  {
+    "path": "tests\\e2e\\tour.spec.ts",
+    "original": "c9f946f5ee064863dfdbf625bb9e0517fe8a427a2bc5b69f13b20a658e66689b",
+    "current": "c9f946f5ee064863dfdbf625bb9e0517fe8a427a2bc5b69f13b20a658e66689b",
+    "identical": true
+  },
+  {
+    "path": "tests\\e2e\\v2-lifecycle.spec.ts",
+    "original": "3e190d81a4cafed432863a954cbf90d0cab91ade1616dde27b03019be7aa3cc1",
+    "current": "3e190d81a4cafed432863a954cbf90d0cab91ade1616dde27b03019be7aa3cc1",
+    "identical": true
+  },
+  {
+    "path": "tests\\e2e\\v2.spec.ts",
+    "original": "ca14ed1142b86e4bd42185254d4e4a8d1e46a0008f96141f267bca7db89a9bc4",
+    "current": "ca14ed1142b86e4bd42185254d4e4a8d1e46a0008f96141f267bca7db89a9bc4",
+    "identical": true
+  },
+  {
+    "path": "tests\\e2e\\workshop.spec.ts",
+    "original": "e1debfab833d1266dbd7890d6908d38d7b0e7be199106d8229ec32c1d19704fd",
+    "current": "e1debfab833d1266dbd7890d6908d38d7b0e7be199106d8229ec32c1d19704fd",
+    "identical": true
+  },
+  {
+    "path": "tests\\unit\\geometry-client.test.ts",
+    "original": "34737425e2ca3960e42b68e92c4f648b7d2debf2c0b0d0f4476215e31a77e0bb",
+    "current": "34737425e2ca3960e42b68e92c4f648b7d2debf2c0b0d0f4476215e31a77e0bb",
+    "identical": true
+  },
+  {
+    "path": "tests\\unit\\geometry.test.ts",
+    "original": "5f665b1226030740cb07b916f30ec8cd4c92e1ce3b2addc1b1a406a77f55b9c9",
+    "current": "5f665b1226030740cb07b916f30ec8cd4c92e1ce3b2addc1b1a406a77f55b9c9",
+    "identical": true
+  },
+  {
+    "path": "tests\\unit\\integration-lessons.test.ts",
+    "original": "7b61f3bea16f9a844e490c09979b5ed60c5ed05756643769209d5f8768f64263",
+    "current": "4d12ddef120793fa2fb1a6f2bd5a4839fb0e28e8a9672090040cc02a53bea2a7",
+    "identical": false
+  },
+  {
+    "path": "tests\\unit\\io.test.ts",
+    "original": "5c594d4f3e5cc9fa282adb59492a2cda45614bd4996272f7c428b11dd1ebb713",
+    "current": "5c594d4f3e5cc9fa282adb59492a2cda45614bd4996272f7c428b11dd1ebb713",
+    "identical": true
+  },
+  {
+    "path": "tests\\unit\\v2-markers.test.ts",
+    "original": "3fbd8dce6057389d2b30dd6475a082211e5b8bc31d514a6b69209c30be3c6217",
+    "current": "3fbd8dce6057389d2b30dd6475a082211e5b8bc31d514a6b69209c30be3c6217",
+    "identical": true
+  },
+  {
+    "path": "tests\\unit\\v2-records.test.ts",
+    "original": "e31e1b16d49ebb0b02f074d487ce507e81615ecbc6aece2f49f76cfdef1ea005",
+    "current": "e31e1b16d49ebb0b02f074d487ce507e81615ecbc6aece2f49f76cfdef1ea005",
+    "identical": true
+  }
+]

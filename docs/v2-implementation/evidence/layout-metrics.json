@@ -1,0 +1,32 @@
+[
+  {
+    "viewport": 1440,
+    "overflow": false,
+    "canvas": 420.515625,
+    "body": 1440
+  },
+  {
+    "viewport": 1280,
+    "overflow": false,
+    "canvas": 491,
+    "body": 1280
+  },
+  {
+    "viewport": 390,
+    "overflow": false,
+    "canvas": 334,
+    "body": 390
+  },
+  {
+    "viewport": 360,
+    "overflow": false,
+    "canvas": 304,
+    "body": 360
+  },
+  {
+    "viewport": 720,
+    "overflow": false,
+    "canvas": 664,
+    "body": 720
+  }
+]

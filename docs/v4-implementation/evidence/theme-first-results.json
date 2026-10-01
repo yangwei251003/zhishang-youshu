@@ -1,0 +1,317 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/v4-theme-layout.spec.ts",
+      "--project=chrome",
+      "--output=artifacts/v4-theme-first"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v4-theme-first",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v4-theme-first",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5194",
+      "url": "http://127.0.0.1:5194",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "v4-theme-layout.spec.ts",
+      "file": "v4-theme-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "five real themes persist and keep printed millimetres and SVG independent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:46:56.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-4595af700f93b2b4cb3d",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion and missing View Transitions switch directly; system theme follows device",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45418,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v4-theme-layout.spec.ts",
+                        "column": 139,
+                        "line": 24
+                      },
+                      "message": "Error: locator.click: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '竹青', exact: true })\u001b[22m\n\n\n  22 |   await page.emulateMedia({reducedMotion:'reduce',colorScheme:'dark'});\n  23 |   await page.addInitScript(()=>{Object.defineProperty(document,'startViewTransition',{value:undefined,configurable:true});});\n> 24 |   await enter(page);await page.getByRole('button',{name:'工坊设置',exact:true}).click();await page.getByRole('button',{name:'竹青',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','bamboo');\n     |                                                                                                                                           ^\n  25 |   await page.getByRole('checkbox',{name:'跟随设备的明暗模式'}).check();await expect(page.locator('html')).toHaveAttribute('data-theme','ink');\n  26 |   await page.emulateMedia({colorScheme:'light'});await expect(page.locator('html')).toHaveAttribute('data-theme','plain');\n  27 |   expect(await page.evaluate(()=>document.getAnimations().filter(a=>a.playState==='running').length)).toBe(0);\n    at C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v4-theme-layout.spec.ts:24:139"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:47:08.372Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v4-theme-first\\v4-theme-layout-reduced-mo-a3318-system-theme-follows-device-chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v4-theme-first\\v4-theme-layout-reduced-mo-a3318-system-theme-follows-device-chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\v4-theme-first\\v4-theme-layout-reduced-mo-a3318-system-theme-follows-device-chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-c1342aa4a3c1ad67e12d",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "navigation distinguishes current page from open overlay and returns focus with Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5080,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:47:56.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-f4bb473f6c2824c1b4c5",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "first task collapses the rail without hiding its progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:48:01.889Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-bc48fc27c88a0aae4053",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "all five categories fall back to real local videos after three seconds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19659,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:48:04.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-eece2957bca2094faca2",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 39,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-28T03:46:55.881Z",
+    "duration": 89471.701,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

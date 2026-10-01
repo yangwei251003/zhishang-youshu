@@ -1,0 +1,184 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/v4-theme-layout.spec.ts",
+      "-g",
+      "reduced motion",
+      "--output=artifacts/v4-theme-reduced"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v4-theme-reduced",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/v4-theme-reduced",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5194",
+      "url": "http://127.0.0.1:5194",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "v4-theme-layout.spec.ts",
+      "file": "v4-theme-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "reduced motion and missing View Transitions switch directly; system theme follows device",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:49:37.362Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-c1342aa4a3c1ad67e12d",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "reduced motion and missing View Transitions switch directly; system theme follows device",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2879,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T03:49:41.349Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eec3d7dcb07c6fc566e5-09530dca91ad1c74b7ff",
+          "file": "v4-theme-layout.spec.ts",
+          "line": 21,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-28T03:49:36.755Z",
+    "duration": 8790.657000000001,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

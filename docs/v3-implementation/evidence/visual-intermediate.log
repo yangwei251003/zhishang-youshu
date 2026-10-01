@@ -1,0 +1,148 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+ExpectError: expect(locator).toBeVisible() failed
+
+Locator:  getByText('已自动保存', { exact: true })
+Expected: visible
+Received: hidden
+Timeout:  5000ms
+
+Call log:
+  - Expect "toBeVisible" getByText('已自动保存', { exact: true }) with timeout 5000ms
+  - waiting for getByText('已自动保存', { exact: true })
+    11 × locator resolved to <span>已自动保存</span>
+       - unexpected value "hidden"
+
+    at captureRawStack (C:\Users\yangwei\Desktop\数字媒体科技比赛\纸上有数——剪纸结构与几何的交互实验工坊\node_modules\playwright-core\lib\coreBundle.js:8588:17)
+    at callMatcherAsStep (C:\Users\yangwei\Desktop\数字媒体科技比赛\纸上有数——剪纸结构与几何的交互实验工坊\node_modules\playwright\lib\matchers\expect.js:13310:57)
+    at Object.toBeVisible (C:\Users\yangwei\Desktop\数字媒体科技比赛\纸上有数——剪纸结构与几何的交互实验工坊\node_modules\playwright\lib\matchers\expect.js:13302:23)
+    at C:\Users\yangwei\Desktop\数字媒体科技比赛\纸上有数——剪纸结构与几何的交互实验工坊\scripts\v3-visual-check.mjs:9:216 {
+  matcherResult: {
+    message: 'expect(locator).toBeVisible() failed\n' +
+      '\n' +
+      "Locator:  getByText('已自动保存', { exact: true })\n" +
+      'Expected: visible\n' +
+      'Received: hidden\n' +
+      'Timeout:  5000ms\n' +
+      '\n' +
+      'Call log:\n' +
+      `  - Expect "toBeVisible" getByText('已自动保存', { exact: true }) with timeout 5000ms\n` +
+      "  - waiting for getByText('已自动保存', { exact: true })\n" +
+      '    11 × locator resolved to <span>已自动保存</span>\n' +
+      '       - unexpected value "hidden"\n',
+    pass: false,
+    actual: 'hidden',
+    name: 'toBeVisible',
+    expected: 'visible',
+    log: [
+      `  - Expect "toBeVisible" getByText('已自动保存', { exact: true }) with timeout 5000ms`,
+      "  - waiting for getByText('已自动保存', { exact: true })",
+      '    11 × locator resolved to <span>已自动保存</span>',
+      '       - unexpected value "hidden"'
+    ],
+    timeout: 5000,
+    ariaSnapshot: '- banner:\n' +
+      '  - link "纸上有数首页":\n' +
+      '    - /url: "#workshop"\n' +
+      '    - text: 纸上有数 PAPER · PATTERN · POSSIBILITY\n' +
+      '  - navigation "主导航":\n' +
+      '    - button "实验工坊"\n' +
+      '    - button "剪纸灵感库"\n' +
+      '    - button "学习手册"\n' +
+      '    - button "我的作品"\n' +
+      '    - button "纸上第一课"\n' +
+      '    - button "使用引导"\n' +
+      '  - group "工坊声音":\n' +
+      '    - button "音效开" [pressed]\n' +
+      '    - button "开启轻音乐"\n' +
+      '- main:\n' +
+      '  - text: 交互式剪纸与几何实验室\n' +
+      '  - heading "一纸之间，万象可见。" [level=1]\n' +
+      '  - paragraph: 折叠，对称，连通。让每一次剪切，都成为一次发现。\n' +
+      '  - img "原创朱红镂空团花与花叶，装饰示意"\n' +
+      '  - region "剪纸实验工作台":\n' +
+      '    - text: 一纸，生万象 自由创作\n' +
+      '    - status\n' +
+      '    - button "新建"\n' +
+      '    - button "保存"\n' +
+      '    - button "导入"\n' +
+      '    - button "导出"\n' +
+      '    - button "打印纸样"\n' +
+      '    - button "导入项目文件"\n' +
+      '    - complementary "实验与剪切工具":\n' +
+      '      - region "纸上第一课":\n' +
+      '        - button "纸上第一课0 / 7 项真实体验"\n' +
+      '      - button "自由创作"\n' +
+      '      - button "循序学习"\n' +
+      '      - group: 当前实验 · 一纸，生万象 换一课\n' +
+      '      - text: 折叠方式\n' +
+      '      - button "2 层折叠" [disabled]:\n' +
+      '        - strong: 2 层\n' +
+      '      - button "4 层折叠" [disabled]:\n' +
+      '        - strong: 4 层\n' +
+      '      - button "8 层折叠" [disabled]:\n' +
+      '        - strong: 8 层\n' +
+      '      - paragraph: 首刀后折法固定；新建可更换。\n' +
+      '      - text: 剪切工具\n' +
+      '      - button "三角剪口" [pressed]\n' +
+      '      - button "矩形剪口"\n' +
+      '      - button "多边形"\n' +
+      '      - paragraph: 在折叠纸边缘拖拽，松开完成一刀。须从当前纸边进入。\n' +
+      '      - button "第一次来到工坊？"\n' +
+      '    - text: 05 道剪口 · 160 × 160 mm\n' +
+      '    - button "显示或隐藏折线"\n' +
+      '    - button "撤销"\n' +
+      '    - button "重做" [disabled]\n' +
+      '    - group "画布视图":\n' +
+      '      - button "绘制 · 折叠纸" [pressed]\n' +
+      '      - button "观察 · 展开纸"\n' +
+      '    - text: A\n' +
+      '    - heading "在折叠中，落下一剪" [level=2]\n' +
+      '    - text: FOLD & CUT\n' +
+      '    - img "折叠态剪纸画布，使用鼠标拖动绘制剪口": 每一刀 · 穿过 8 层纸\n' +
+      '    - text: 拖拽绘制剪口 160 mm / 8 层 八层团花\n' +
+      '    - strong: 8 层叠合 · 每一层同时裁切\n' +
+      '    - button "看纸是怎样展开的"\n' +
+      '    - region "剪切历史":\n' +
+      '      - heading "每一步，都有迹可循" [level=2]\n' +
+      '      - text: 5 / 5\n' +
+      '      - button "一张白纸 起点"\n' +
+      '      - button "回看第 1 刀 花心 · 折角": 01 花心 · 折角 剪切完成\n' +
+      '      - button "回看第 2 刀 花瓣 · 外沿一": 02 花瓣 · 外沿一 剪切完成\n' +
+      '      - button "回看第 3 刀 花瓣 · 外沿二": 03 花瓣 · 外沿二 剪切完成\n' +
+      '      - button "回看第 4 刀 花窗 · 横折边": 04 花窗 · 横折边 剪切完成\n' +
+      '      - button "回看第 5 刀 叶影 · 斜折边": 05 叶影 · 斜折边 剪切完成\n' +
+      '      - text: 下一刀， 由你决定。\n' +
+      '    - complementary "结构观察与学习反馈":\n' +
+      '      - text: 观察与发现 观 结构观察\n' +
+      '      - heading "纸张连成一片" [level=3]\n' +
+      '      - paragraph: 所有保留区域仍然相连。试着留意空白如何勾勒出图案。\n' +
+      '      - strong: "1"\n' +
+      '      - text: 片纸\n' +
+      '      - strong: "9"\n' +
+      '      - text: 个孔洞\n' +
+      '      - strong: 77%\n' +
+      '      - text: 纸张保留 这一剪，为什么\n' +
+      '      - paragraph: 折叠让多层纸重合，同一刀会出现在每个对应位置。落在折线上的剪口，展开后可能接成同一个孔。\n' +
+      '      - button "认识折叠与对称"\n' +
+      '      - article:\n' +
+      '        - text: 看真人怎么剪 12:04\n' +
+      '        - button "打开视频：莲花团花 · 上篇": 点开真人示范\n' +
+      '        - heading "莲花团花 · 上篇" [level=3]\n' +
+      '        - paragraph: 作者：慧子手工_非遗文创（杨慧子）\n' +
+      '        - link "B 站原视频":\n' +
+      '          - /url: https://www.bilibili.com/video/BV1Gt4y1u7vP/\n' +
+      '        - group: 带着两个问题看\n' +
+      '      - text: 记 / 01\n' +
+      '      - paragraph: 纸张连通， 不等于纸张牢固。\n' +
+      '      - text: 屏幕上的发现， 值得在一张真纸上再试一次。\n' +
+      '      - button "把实验带到纸上"\n' +
+      '    - text: 毫米坐标设计 · 本地几何计算\n' +
+      '    - button "快捷操作与说明"\n' +
+      '  - text: 纸上有数 / 让几何在指尖发生'
+  }
+}
+
+Node.js v24.15.0

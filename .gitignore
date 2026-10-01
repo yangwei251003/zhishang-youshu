@@ -8,12 +8,14 @@ artifacts/release/
 artifacts/video/
 artifacts/*.zip
 
-# --- 2026-10-01 补充：只把代码、配置、文本资料入库；构建产物与大体量媒体/二进制留在本地 ---
+# --- 2026-10-01 补充：只把代码、配置、文本资料与验收截图入库；构建产物与大体量媒体/二进制留在本地 ---
 # 第四版构建产物（可由 npm run build 重新生成）
 dist-v4/
 # 验收、发布与 e2e 产物（含 trace.zip / 录屏 / 运行包，体积大）
 artifacts/
-docs/**/evidence/
+# 生成的 31MB 原始 CSS 快照，可由 scripts/v4-css-baseline.mjs 重新生成；
+# evidence 目录下的截图与 JSON 证据保留入库，供文档引用
+docs/**/evidence/css-before.json
 *.zip
 *.mp4
 *.webm

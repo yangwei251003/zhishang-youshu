@@ -1,0 +1,350 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/v3-resilience.spec.ts",
+      "--project=chrome",
+      "--output=artifacts/e2e-resilience-second",
+      "--reporter=list,json"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/e2e-resilience-second",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/artifacts/e2e-resilience-second",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5192",
+      "url": "http://127.0.0.1:5192",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "v3-resilience.spec.ts",
+      "file": "v3-resilience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V3 no-gesture audio silence, preference restore, keyboard audio toggle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23010,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:45:49.611Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-99154457d16378691e40",
+          "file": "v3-resilience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "blocked persistent storage permits editing, lesson switching and JSON backup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19699,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:46:14.148Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-97c13fd43152d1a95a76",
+          "file": "v3-resilience.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "print popup blocked offers a standalone file and keeps prediction gating",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23689,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:46:33.883Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-1e4a1805cde26000f5ec",
+          "file": "v3-resilience.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "repair timeout offers choices while undo stays responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 40026,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:46:57.608Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-1f3ba5d4588fe22c71b8",
+          "file": "v3-resilience.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "external network blocked: prediction, repair and export remain entirely local",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 59653,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v3-resilience.spec.ts",
+                        "column": 84,
+                        "line": 59
+                      },
+                      "message": "Error: page.waitForEvent: Test timeout of 45000ms exceeded.\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================\n\n  57 |   await page.getByRole('button',{name:'比较修改建议',exact:true}).click();await page.locator('.repair-link').first().click();\n  58 |   await page.getByRole('button',{name:'应用到设计',exact:true}).click();await expect(page.getByTestId('geometry-status')).toHaveText('纸张连成一片');\n> 59 |   await page.getByRole('button',{name:'导出',exact:true}).click();const pending=page.waitForEvent('download');await page.getByRole('button',{name:'导出打印文件',exact:true}).click();\n     |                                                                                    ^\n  60 |   expect((await pending).suggestedFilename()).toMatch(/\\.html$/);\n  61 |   expect(outside).toEqual([]);expect(failed).toEqual([]);expect(errors).toEqual([]);\n  62 | });\n    at C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v3-resilience.spec.ts:59:84"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v3-resilience.spec.ts",
+                        "column": 167,
+                        "line": 59
+                      },
+                      "message": "Error: locator.click: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '导出打印文件', exact: true })\u001b[22m\n\n\n  57 |   await page.getByRole('button',{name:'比较修改建议',exact:true}).click();await page.locator('.repair-link').first().click();\n  58 |   await page.getByRole('button',{name:'应用到设计',exact:true}).click();await expect(page.getByTestId('geometry-status')).toHaveText('纸张连成一片');\n> 59 |   await page.getByRole('button',{name:'导出',exact:true}).click();const pending=page.waitForEvent('download');await page.getByRole('button',{name:'导出打印文件',exact:true}).click();\n     |                                                                                                                                                                       ^\n  60 |   expect((await pending).suggestedFilename()).toMatch(/\\.html$/);\n  61 |   expect(outside).toEqual([]);expect(failed).toEqual([]);expect(errors).toEqual([]);\n  62 | });\n    at C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\v3-resilience.spec.ts:59:167"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:47:37.686Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\e2e-resilience-second\\v3-resilience-external-net-57977-xport-remain-entirely-local-chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\e2e-resilience-second\\v3-resilience-external-net-57977-xport-remain-entirely-local-chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\artifacts\\e2e-resilience-second\\v3-resilience-external-net-57977-xport-remain-entirely-local-chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-33d72aacc544cdacf50d",
+          "file": "v3-resilience.spec.ts",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "actual archived V1 project imports and restores its millimetre geometry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17653,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T16:48:49.454Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd4c9b391e7275920842-4e79a1a611daf3a28dfe",
+          "file": "v3-resilience.spec.ts",
+          "line": 64,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-27T16:45:45.159Z",
+    "duration": 206061.514,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

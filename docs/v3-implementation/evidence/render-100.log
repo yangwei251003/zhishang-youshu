@@ -1,0 +1,9 @@
+{
+  elapsed: 1024.2777999999998,
+  render: {
+    svgCharacters: 25282,
+    paths: 1,
+    width: 467.484375,
+    height: 467.484375
+  }
+}

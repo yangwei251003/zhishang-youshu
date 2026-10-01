@@ -1,0 +1,132 @@
+[
+  {
+    "track": 1,
+    "volume": 0.6,
+    "peak": 0.27381521463394165,
+    "peakDbFS": -11.250848476269649,
+    "rms": 0.03363550907602256,
+    "rmsDbFS": -29.46403989701953,
+    "sampleCount": 163840,
+    "contextStates": [
+      {
+        "state": "running",
+        "time": 1.7493333333333334
+      }
+    ],
+    "gains": [
+      0.6000000238418579,
+      1,
+      0.800000011920929,
+      0,
+      1,
+      0
+    ],
+    "media": [
+      {
+        "src": "http://127.0.0.1:5194/audio/zs-track-1.mp3",
+        "currentTime": 1.748799,
+        "duration": 175,
+        "readyState": 4
+      }
+    ]
+  },
+  {
+    "track": 2,
+    "volume": 0.6,
+    "peak": 0.13584309816360474,
+    "peakDbFS": -17.339248441293687,
+    "rms": 0.03371791402721139,
+    "rmsDbFS": -29.442786020503245,
+    "sampleCount": 163840,
+    "contextStates": [
+      {
+        "state": "running",
+        "time": 3.872
+      }
+    ],
+    "gains": [
+      0.6000000238418579,
+      1,
+      0.800000011920929,
+      0,
+      0,
+      0,
+      1
+    ],
+    "media": [
+      {
+        "src": "http://127.0.0.1:5194/audio/zs-track-2.mp3",
+        "currentTime": 1.813866,
+        "duration": 94.016939,
+        "readyState": 4
+      }
+    ]
+  },
+  {
+    "track": 3,
+    "volume": 0.6,
+    "peak": 0.3334004282951355,
+    "peakDbFS": -9.540676932026226,
+    "rms": 0.04182790255415929,
+    "rmsDbFS": -27.570678248427054,
+    "sampleCount": 163840,
+    "contextStates": [
+      {
+        "state": "running",
+        "time": 5.8773333333333335
+      }
+    ],
+    "gains": [
+      0.6000000238418579,
+      1,
+      0.800000011920929,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "media": [
+      {
+        "src": "http://127.0.0.1:5194/audio/zs-track-3.mp3",
+        "currentTime": 1.741497,
+        "duration": 175,
+        "readyState": 4
+      }
+    ]
+  },
+  {
+    "track": 4,
+    "volume": 0.6,
+    "peak": 0.1752249151468277,
+    "peakDbFS": -15.128082833054538,
+    "rms": 0.03522648070656074,
+    "rmsDbFS": -29.06261485483444,
+    "sampleCount": 163840,
+    "contextStates": [
+      {
+        "state": "running",
+        "time": 7.978666666666666
+      }
+    ],
+    "gains": [
+      0.6000000238418579,
+      1,
+      0.800000011920929,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "media": [
+      {
+        "src": "http://127.0.0.1:5194/audio/zs-track-4.mp3",
+        "currentTime": 1.793741,
+        "duration": 153.262653,
+        "readyState": 4
+      }
+    ]
+  }
+]

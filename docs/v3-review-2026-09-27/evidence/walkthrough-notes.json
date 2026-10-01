@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-27",
+  "reviewer": "WorkBuddy 小助（代理走查，非真人试用）",
+  "target": "http://127.0.0.1:5191 （dist v0.2.0 生产构建，scripts/serve.mjs）",
+  "browser": "Playwright Chromium（隔离上下文）",
+  "viewports": ["约1035px 桌面", "390×844 移动"],
+  "consoleErrors": {
+    "count": 6,
+    "type": "CSP font-src 阻断 data: 字体",
+    "detail": "生产服务 CSP 为 font-src 'self'，但构建产物 CSS 内有 6 个 data:font/woff(2) 内联字体，首屏全部被阻断。document.fonts 共 101 个字面子集，12 个已加载，其余按需；被阻断的 6 个发生在首屏渲染路径上，对应字符回退到系统字体，标题/正文字体表现不一致。",
+    "evidence": "console-errors-fonts-csp.log"
+  },
+  "fontCheck": { "h1FontFamily": "\"Noto Serif SC\", \"Source Han Serif SC\", SimSun, serif", "fontFaces": 101, "loaded": 12 },
+  "performance": { "totalTransferKB": 1070, "resourceCount": 24, "domContentLoadedMs": 160, "fullLoadMs": 172, "note": "本地服务，极快；不代表低网速环境" },
+  "tourCardOverlap": {
+    "viewport": "约1035px",
+    "issue": "引导卡片定位逻辑 left=max(12, rect.left-342)，当目标面板左缘小于342px时卡片落在x=12、宽约330px，完全遮挡预测选项文字（选项label左缘x=233）",
+    "affected": ["引导第2步预测面板（选项A/B/C文字被遮）", "引导第5步编辑弹窗（参数字段被遮）"],
+    "evidence": ["03-tour-step2-prediction.png", "07-edit-dialog.png"]
+  },
+  "flowsVerified": [
+    "首访欢迎卡 → 六步引导全程（预测/剪切/展开/参数修改/导出），完成恢复原作品",
+    "引导第3步真实拖拽剪切成功（02道剪口）",
+    "引导第5步参数修改：固定右侧收短宽度36.86→30mm，检查应用成功",
+    "留住这一线：预测→比较修改建议（3个候选）→80%方案对照（3片→1片，面积变化616mm²，2孔）→应用→记录学习",
+    "打印纸样：新窗口双页模板，展开参照+100mm标尺+折叠态刀线+制作顺序+剪切记录+人工核对空栏",
+    "自由创作内部非法剪口：虚线草稿保留+持久错误『这一刀还没有应用：剪口无法从当时折叠纸的边界进入』",
+    "迁移题（折线上的相遇）进入无答案泄露，预测门槛提示正常",
+    "390×844：预测面板置顶、绘制/观察双标签、画布全宽，无横向溢出"
+  ],
+  "notVerified": ["真机触控", "真实打印与实剪", "低网速/离线", "存储配额耗尽", "长时间运行内存", "盲人读屏全程"]
+}

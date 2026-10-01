@@ -1,0 +1,1261 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--output=docs/v2-implementation/evidence/e2e-output",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\playwright.config.ts",
+    "rootDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/docs/v2-implementation/evidence/e2e-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/docs/v2-implementation/evidence/e2e-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "edge",
+        "name": "edge",
+        "testDir": "C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5188",
+      "url": "http://127.0.0.1:5188",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "platform.spec.ts",
+      "file": "platform.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:27.190Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-1e92e5303aa888f7cd5c",
+          "file": "platform.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1661,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "50刀8层首次Worker计算（含初始化） {\"elapsedMs\":343,\"count\":50,\"valid\":true,\"regions\":1,\"area\":25390}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:29.613Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-8f505ac1573b0bbb69a9",
+          "file": "platform.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2982,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:24:48.068Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-baa2622347c7dccae883",
+          "file": "platform.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2388,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "50刀8层首次Worker计算（含初始化） {\"elapsedMs\":524.3999999761581,\"count\":50,\"valid\":true,\"regions\":1,\"area\":25390}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:24:52.154Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "310f5d38cd89ad55ea3f-0df29f3ff7537925e5b9",
+          "file": "platform.spec.ts",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tour.spec.ts",
+      "file": "tour.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10226,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:31.327Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-a87b43ffb0ecd2a48950",
+          "file": "tour.spec.ts",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8530,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:41.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-5933ce814d7f36c9f0c9",
+          "file": "tour.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3872,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:50.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-15a13890685992e02763",
+          "file": "tour.spec.ts",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13000,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:24:54.603Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-03b1f50323b216babd1e",
+          "file": "tour.spec.ts",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9158,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:25:07.636Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-d2cf731dc0b74e7e426a",
+          "file": "tour.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:25:16.821Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0c1c5de09969ac240453-23f12989e5d746a10506",
+          "file": "tour.spec.ts",
+          "line": 106,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v2.spec.ts",
+      "file": "v2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9935,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:21:54.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-febed0fc23a17d1f9d05",
+          "file": "v2.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 34517,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "一剪，两相映",
+                      "duration": 4015
+                    },
+                    {
+                      "title": "四面有回声",
+                      "duration": 3896
+                    },
+                    {
+                      "title": "一纸，生万象",
+                      "duration": 3969
+                    },
+                    {
+                      "title": "孔，还是一座岛",
+                      "duration": 4033
+                    },
+                    {
+                      "title": "留住这一线",
+                      "duration": 3990
+                    },
+                    {
+                      "title": "从屏幕，到手心",
+                      "duration": 4130
+                    },
+                    {
+                      "title": "折线上的相遇",
+                      "duration": 4085
+                    },
+                    {
+                      "title": "让纸重新相连",
+                      "duration": 4000
+                    }
+                  ],
+                  "startTime": "2026-09-26T17:22:04.004Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-4d30eee5c7f1b68617f0",
+          "file": "v2.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12065,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:22:38.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-c3838ca2bcd5a931a68c",
+          "file": "v2.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:22:50.638Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-1331472b06929c59d4fe",
+          "file": "v2.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18979,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:23:04.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-7c949db4688d278aae06",
+          "file": "v2.spec.ts",
+          "line": 115,
+          "column": 1
+        },
+        {
+          "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11701,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:25:20.239Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-6ec9f864a69fc1b02352",
+          "file": "v2.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 39798,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "一剪，两相映",
+                      "duration": 4554
+                    },
+                    {
+                      "title": "四面有回声",
+                      "duration": 4348
+                    },
+                    {
+                      "title": "一纸，生万象",
+                      "duration": 4370
+                    },
+                    {
+                      "title": "孔，还是一座岛",
+                      "duration": 4414
+                    },
+                    {
+                      "title": "留住这一线",
+                      "duration": 4479
+                    },
+                    {
+                      "title": "从屏幕，到手心",
+                      "duration": 4488
+                    },
+                    {
+                      "title": "折线上的相遇",
+                      "duration": 4468
+                    },
+                    {
+                      "title": "让纸重新相连",
+                      "duration": 4553
+                    }
+                  ],
+                  "startTime": "2026-09-26T17:25:31.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-a667210a65fd2511c441",
+          "file": "v2.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14135,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:26:11.785Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-2e5ac72e4ad88e024888",
+          "file": "v2.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17127,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:26:25.944Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-c1da38080bd44903ae94",
+          "file": "v2.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22850,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:26:43.098Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f5cea1cd63f4d778102-bb1e892743f7c9f1b690",
+          "file": "v2.spec.ts",
+          "line": 115,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "workshop.spec.ts",
+      "file": "workshop.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20312,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:23:23.766Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-30435cc71d81d97c6100",
+          "file": "workshop.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15695,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:23:44.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-8f08667d58377f12a9d2",
+          "file": "workshop.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22463,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('geometry-status')\nExpected pattern: not \u001b[32m/正在计算|等待计算/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7m正在计算\u001b[27m\"\u001b[39m\nTimeout: 12000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveText\" getByTestId('geometry-status') with timeout 12000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('geometry-status')\u001b[22m\n\u001b[2m    27 × locator resolved to <h3 data-testid=\"geometry-status\">正在计算</h3>\u001b[22m\n\u001b[2m       - unexpected value \"正在计算\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('geometry-status')\nExpected pattern: not \u001b[32m/正在计算|等待计算/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7m正在计算\u001b[27m\"\u001b[39m\nTimeout: 12000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveText\" getByTestId('geometry-status') with timeout 12000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('geometry-status')\u001b[22m\n\u001b[2m    27 × locator resolved to <h3 data-testid=\"geometry-status\">正在计算</h3>\u001b[22m\n\u001b[2m       - unexpected value \"正在计算\"\u001b[22m\n\n    at ready (C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts:7:57)\n    at C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts:98:31",
+                    "location": {
+                      "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts",
+                      "column": 57,
+                      "line": 7
+                    },
+                    "snippet": "   5 |\n   6 | async function ready(page: Page) {\n>  7 |   await expect(page.getByTestId('geometry-status')).not.toHaveText(/正在计算|等待计算/);\n     |                                                         ^\n   8 |   await expect(page.getByText('已自动保存', { exact: true })).toBeVisible();\n   9 | }\n  10 | async function dragCut(page: Page, a: [number, number], b: [number, number]) {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts",
+                        "column": 57,
+                        "line": 7
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('geometry-status')\nExpected pattern: not \u001b[32m/正在计算|等待计算/\u001b[39m\nReceived string: \u001b[31m\"\u001b[7m正在计算\u001b[27m\"\u001b[39m\nTimeout: 12000ms\n\nCall log:\n\u001b[2m  - Expect \"not toHaveText\" getByTestId('geometry-status') with timeout 12000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('geometry-status')\u001b[22m\n\u001b[2m    27 × locator resolved to <h3 data-testid=\"geometry-status\">正在计算</h3>\u001b[22m\n\u001b[2m       - unexpected value \"正在计算\"\u001b[22m\n\n\n   5 |\n   6 | async function ready(page: Page) {\n>  7 |   await expect(page.getByTestId('geometry-status')).not.toHaveText(/正在计算|等待计算/);\n     |                                                         ^\n   8 |   await expect(page.getByText('已自动保存', { exact: true })).toBeVisible();\n   9 | }\n  10 | async function dragCut(page: Page, a: [number, number], b: [number, number]) {\n    at ready (C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts:7:57)\n    at C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts:98:31"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:23:59.832Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\docs\\v2-implementation\\evidence\\e2e-output\\workshop-分步展开、基础反馈和窄屏不产生整页横向溢出-chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\docs\\v2-implementation\\evidence\\e2e-output\\workshop-分步展开、基础反馈和窄屏不产生整页横向溢出-chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\docs\\v2-implementation\\evidence\\e2e-output\\workshop-分步展开、基础反馈和窄屏不产生整页横向溢出-chrome\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts",
+                    "column": 57,
+                    "line": 7
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-31f6e7b56980f04b2929",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9455,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:24:29.696Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-42579870467a0bbb2df2",
+          "file": "workshop.spec.ts",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6197,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:24:39.971Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-9f8a7dbdf613cc4060d7",
+          "file": "workshop.spec.ts",
+          "line": 136,
+          "column": 1
+        },
+        {
+          "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25692,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:27:06.000Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-c92bf077e7d0d2d1da1d",
+          "file": "workshop.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:27:31.719Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-4f9c13c7d7d4f59ed841",
+          "file": "workshop.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14598,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:27:49.173Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-455a5d0614b73ac27f23",
+          "file": "workshop.spec.ts",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22644,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:28:03.799Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-e758ba81cd3f87deaffa",
+          "file": "workshop.spec.ts",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25509,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-26T17:28:26.474Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65c53a506c6fc773dade-9a75aae86f685c010921",
+          "file": "workshop.spec.ts",
+          "line": 136,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-26T17:21:26.400Z",
+    "duration": 450745.922,
+    "expected": 29,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

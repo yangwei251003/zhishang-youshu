@@ -1,0 +1,142 @@
+[
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\App.tsx",
+    "Hash": "F8D1729B859EB571F149FDDA8D2A2AF6EA9FE81A62E33F8AE3072DB03F775186"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\ErrorBoundary.tsx",
+    "Hash": "AED051F745DE6E8D469E1FE3E4F891CF668360FAD80D606A4A27F16BA500A2F0"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\main.tsx",
+    "Hash": "56967C7D302E619DEDF3C1A7D2303C8AA583DAC73886B201B844176869E713DA"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\styles.css",
+    "Hash": "281D791B4E02537F06935F0C5798C53ED63F371895F39C70502CAB258333202C"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\types.ts",
+    "Hash": "6EB95A2CE1A8C0FCD2CEE63D26922419D5E8C0585A4ACC8A5B58B003EC9270BD"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\components\\Dialog.tsx",
+    "Hash": "62378F47447379B802F3A67F9F61A937ECE314E444AECD3923111D1E4E257615"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\components\\PaperCanvas.tsx",
+    "Hash": "664D51132CAD1492957F9CB96A27E7FD82647CC212CFFEBEF04AAE0C30CE6A29"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\geometry\\client.ts",
+    "Hash": "C74CDD4457C97392CD2F3F435F60A1DF4610F40283D0EB760C4C1D289A930CBE"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\geometry\\engine.ts",
+    "Hash": "152AB56044119E75A249017381E30135E40BB4813E74290F0DC49FB2ABC0D298"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\geometry\\kernel.ts",
+    "Hash": "B6D6DBF731DCC8362238E85142EB711AA80B3797D066DCEBAFBBABB8BD617867"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\geometry\\worker.ts",
+    "Hash": "A43FA55E4D44672011250E2503B72D543059F9575BF861535B3946865528E6A5"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\io\\files.ts",
+    "Hash": "D94C2C0BE400E1D21C5D9B38B6A7744D51DB67C7DC81A404B1762A862B7FEFE5"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\io\\storage.ts",
+    "Hash": "1F00BDDADAD4CED1F4BD368D785C09956D04C3337004878D68931A8850FC7691"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\src\\lessons\\index.ts",
+    "Hash": "28A336638E0F726EDC1C5F253B2AE9B7A6801462A31288E25D5563C6FB68D8DD"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\platform.spec.ts",
+    "Hash": "B2BE2DE04540F03D531FA88C95E99C8848F436C214A8D0B72C2B44A730D6A50F"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\e2e\\workshop.spec.ts",
+    "Hash": "64257AC3475080C82AB334A4FCB1DCD0DE7DEB82EEAE85FD9ECB343832172DE3"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\unit\\geometry-client.test.ts",
+    "Hash": "34737425E2CA3960E42B68E92C4F648B7D2DEBF2C0B0D0F4476215E31A77E0BB"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\unit\\geometry.test.ts",
+    "Hash": "5F665B1226030740CB07B916F30EC8CD4C92E1CE3B2ADDC1B1A406A77F55B9C9"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\unit\\integration-lessons.test.ts",
+    "Hash": "7B61F3BEA16F9A844E490C09979B5ED60C5ED05756643769209D5F8768F64263"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tests\\unit\\io.test.ts",
+    "Hash": "5C594D4F3E5CC9FA282ADB59492A2CDA45614BD4996272F7C428B11DD1EBB713"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\capture-workshop.mjs",
+    "Hash": "E6BD86DD494F03D54792A03A0D89665EF038D3F996291287B2E47015CB157D67"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\collect-licenses.mjs",
+    "Hash": "1656E3EAA6DA2F7B39A509F439189A53CC8A16C6589E71CA777E28D6370ADB96"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\export-samples.ts",
+    "Hash": "6919C8ADD8A4E98B8145C6DAA6E2F65867E009689BAF0A03A704445C1C3841DF"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\package-release.mjs",
+    "Hash": "927BCE7780306C1F8D0DA3B3356DF28C61680CD3361FA8D1818761B682EBFB94"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\record-demo.mjs",
+    "Hash": "3E6D87FBA7F99AA0BC8E3CD9E4D82E27AD0B9CFC9CC665E95F25DEB2B36FAA51"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\render-print-samples.mjs",
+    "Hash": "129435BCA6D5C22F7974E26F2F8831BA482DBD31733862D52CE1F94CD9E93CF8"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\serve.mjs",
+    "Hash": "8AEB55C0C23B6BDFCC5A8323FA4EBA442E6C45DA779AA27B3B51B047E40A54E3"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\scripts\\verify-production.mjs",
+    "Hash": "A35A6605CDE47EA927E6270951B4DE955A559DC33163E9784A643A9E3A6BFE28"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\public\\favicon.svg",
+    "Hash": "65436D77B416CE20DD23DF8B366CE81C150F087CE0CCB9FBA0C19E1839104038"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\public\\third-party-notices.txt",
+    "Hash": "FDCE2DD04EDDAD8B2CF2BE05FFC3CBD0CCED5AAE07DAB099CA3F7A61B2B16435"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\package.json",
+    "Hash": "8900C0950408E8B04DFC56B84AA2A2CBF592A84314AB3DEF6A4BB759D5BE3C18"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\package-lock.json",
+    "Hash": "D4D347177A80F70420DB14123E32A2EC2EADC81DF5DF2AB366A03EA75E11C000"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\vite.config.ts",
+    "Hash": "237D9853C6C83DA1657D4BD47AF45A810CA16D162A5C0662EE668326421A1CA7"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\tsconfig.json",
+    "Hash": "0F35AA154BFF1AFBEF9234A45BD094273BB0B815E15E09C757D001B91DDA1B45"
+  },
+  {
+    "Path": "C:\\Users\\yangwei\\Desktop\\数字媒体科技比赛\\纸上有数——剪纸结构与几何的交互实验工坊\\AGENTS.md",
+    "Hash": "7C4299B16EA36D633B3D696E8A2D02ADAAF1D8F3535CD854E60D08E6D7EEA464"
+  }
+]

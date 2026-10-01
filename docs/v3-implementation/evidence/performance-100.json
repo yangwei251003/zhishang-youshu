@@ -1,0 +1,60 @@
+{
+  "measuredAt": "2026-09-27T16:44:56.541Z",
+  "runtime": {
+    "node": "v24.15.0",
+    "platform": "win32",
+    "osRelease": "10.0.26200",
+    "cpu": "AMD Ryzen 5 7530U with Radeon Graphics         ",
+    "logicalCpus": 12
+  },
+  "method": "Single sequential measurement per scenario, no hard performance threshold. Host concurrency is not controlled; concurrent browser acceptance runs were active during this measurement. 160 mm paper, 8 layers; 100 small edge notches share the existing 50-cut fixture depth and occupy the same edge at twice the density. Separated scenario replaces the final notch with a full-width folded strip.",
+  "renderBoundary": "svgPathMs measures exact unfolded SVG path serialization, not browser DOM/layout/paint or Worker startup.",
+  "baselineComparison": "NOT_TESTED: no historical runtime baseline was re-created; these are current V3 measurements only.",
+  "rows": [
+    {
+      "name": "free-connected-100",
+      "foldMode": 8,
+      "cutCount": 100,
+      "validSequence": true,
+      "componentCount": 1,
+      "holeCount": 0,
+      "goalPassed": true,
+      "areaMm2": 25390,
+      "analyzeMs": 1645.035,
+      "svgPathMs": 5.295,
+      "svgPathCharacters": 24955,
+      "repairMs": 1063.989,
+      "repairCount": 0,
+      "repairCandidates": []
+    },
+    {
+      "name": "separated-goal-100",
+      "foldMode": 8,
+      "cutCount": 100,
+      "validSequence": true,
+      "componentCount": 2,
+      "holeCount": 1,
+      "goalPassed": false,
+      "areaMm2": 22672.1,
+      "analyzeMs": 791.701,
+      "svgPathMs": 4.973,
+      "svgPathCharacters": 24801,
+      "repairMs": 14427.052,
+      "repairCount": 2,
+      "repairCandidates": [
+        {
+          "title": "第 100 剪减深至 60%",
+          "changedCutId": "stress-separation",
+          "allGoalsPassed": true,
+          "componentCount": 1
+        },
+        {
+          "title": "第 100 剪减深至 40%",
+          "changedCutId": "stress-separation",
+          "allGoalsPassed": true,
+          "componentCount": 1
+        }
+      ]
+    }
+  ]
+}

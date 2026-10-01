@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-28T04:02:32.293Z",
+  "method": "Chrome appearance page #zoomLevel=2 in isolated project-owned persistent profile. Browser zoom, not CSS zoom.",
+  "viewport": {
+    "innerWidth": 720,
+    "innerHeight": 450,
+    "devicePixelRatio": 2
+  },
+  "overflow": false,
+  "checks": [
+    "native200percent",
+    "prediction choice clickable",
+    "submit prediction",
+    "Escape exits tour",
+    "manual keyboard Escape"
+  ]
+}
