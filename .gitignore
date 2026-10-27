@@ -1,0 +1,47 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+artifacts/screenshots/
+artifacts/release/
+artifacts/video/
+artifacts/*.zip
+
+# --- 2026-10-01 补充：只把代码、配置、文本资料与验收截图入库；构建产物与大体量媒体/二进制留在本地 ---
+# 第四版构建产物（可由 npm run build 重新生成）
+dist-v4/
+# 验收、发布与 e2e 产物（含 trace.zip / 录屏 / 运行包，体积大）
+artifacts/
+# 生成的 31MB 原始 CSS 快照，可由 scripts/v4-css-baseline.mjs 重新生成；
+# evidence 目录下的截图与 JSON 证据保留入库，供文档引用
+docs/**/evidence/css-before.json
+*.zip
+*.mp4
+*.webm
+*.exe
+# 视频制作工作区：保留脚本与配置，排除产物、依赖与素材
+video-production/node_modules/
+video-production/bundle/
+video-production/bundle-revision/
+video-production/pydeps/
+video-production/public/
+# 站点媒体（体积大，本地保留即可）
+public/videos/
+public/audio/
+
+# Public release: original introduction and attributed CC BY music only.
+!public/audio/
+public/audio/*
+!public/audio/zs-track-*.mp3
+!public/audio/zs-track-*-cover.svg
+!public/videos/
+public/videos/*
+!public/videos/workshop-intro.mp4
+!public/videos/workshop-intro.vtt
+!public/videos/workshop-poster.jpg
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

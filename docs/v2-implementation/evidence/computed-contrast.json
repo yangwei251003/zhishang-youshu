@@ -1,0 +1,51 @@
+[
+  {
+    "selector": ".lesson-link",
+    "fontSize": "14px",
+    "color": "rgb(183, 45, 36)",
+    "background": "rgb(239, 220, 208)",
+    "contrast": 4.6329571268332606
+  },
+  {
+    "selector": ".tool-help",
+    "fontSize": "14px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(249, 243, 232)",
+    "contrast": 6.169155677903706
+  },
+  {
+    "selector": ".microcopy",
+    "fontSize": "14px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(249, 243, 232)",
+    "contrast": 6.169155677903706
+  },
+  {
+    "selector": ".insight-panel p",
+    "fontSize": "16px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(255, 252, 245)",
+    "contrast": 6.649767599483123
+  },
+  {
+    "selector": ".diagnosis-panel p",
+    "fontSize": "16px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(255, 252, 245)",
+    "contrast": 6.649767599483123
+  },
+  {
+    "selector": ".canvas-caption",
+    "fontSize": "14px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(245, 239, 227)",
+    "contrast": 5.950105144399322
+  },
+  {
+    "selector": ".fold-card-note",
+    "fontSize": "14px",
+    "color": "rgb(107, 87, 72)",
+    "background": "rgb(255, 252, 245)",
+    "contrast": 6.649767599483123
+  }
+]

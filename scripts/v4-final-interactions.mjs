@@ -1,0 +1,31 @@
+import { chromium, expect } from '@playwright/test';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const evidence='docs/v4-implementation/evidence';
+const browser=await chromium.launch({channel:'chrome'}),context=await browser.newContext({viewport:{width:1440,height:900}});
+const page=await context.newPage(),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+const result={failedRequests:[]};context.on('requestfailed',r=>result.failedRequests.push({url:r.url(),error:r.failure()?.errorText}));
+try {
+ await context.addInitScript(()=>{window.print=()=>{};});
+ await page.goto('http://127.0.0.1:5192');await page.getByRole('button',{name:'直接进入，不再提示',exact:true}).click();
+ await expect(page.getByTestId('geometry-status')).toHaveText('纸张连成一片');await page.evaluate(()=>document.fonts.ready);
+ await page.evaluate(()=>{window.probe={transitions:0,animations:[]};document.addEventListener('click',e=>{window.probe.lastClick={x:e.clientX,y:e.clientY};},true);const original=document.startViewTransition.bind(document);document.startViewTransition=(...args)=>{window.probe.transitions++;return original(...args)};const animate=Element.prototype.animate;Element.prototype.animate=function(frames,options){if(options?.pseudoElement)window.probe.animations.push({frames,options});return animate.call(this,frames,options)};});
+ await page.getByRole('button',{name:'工坊设置',exact:true}).click();const button=page.getByRole('button',{name:'玄墨',exact:true}),box=await button.boundingBox();await button.click();
+ await expect.poll(()=>page.evaluate(()=>window.probe.animations.length)).toBe(1);
+ result.ripple=await page.evaluate(()=>window.probe);assert.equal(result.ripple.transitions,1);assert.equal(result.ripple.animations[0].options.duration,520);assert.equal(result.ripple.animations[0].options.pseudoElement,'::view-transition-new(root)');
+ const circle=result.ripple.animations[0].frames.clipPath[0].match(/at ([\d.]+)px ([\d.]+)px/);assert.equal(Number(circle[1]),result.ripple.lastClick.x);assert.equal(Number(circle[2]),result.ripple.lastClick.y);
+ await expect.poll(()=>page.evaluate(()=>document.getAnimations().filter(a=>a.playState==='running').length)).toBe(0);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('button',{name:'竹青',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','bamboo');assert.equal(await page.evaluate(()=>window.probe.transitions),1);result.reducedMotionWithSupportedApi=true;
+ await page.emulateMedia({reducedMotion:'no-preference'});await page.evaluate(()=>{document.startViewTransition=undefined;});await page.getByRole('button',{name:'靛夜',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','indigo');result.unsupportedApiWithoutReducedMotion=true;await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'新建',exact:true}).click();await page.getByLabel('作品名称').fill('断网核心流程');await page.getByRole('dialog').getByRole('combobox').selectOption('2');await page.getByRole('button',{name:'保存当前并新建'}).click();await expect(page.getByText('已自动保存',{exact:true})).toBeVisible();
+ await context.setOffline(true);
+ const canvas=page.getByTestId('folded-canvas');await canvas.scrollIntoViewIfNeeded();const points=await canvas.evaluate(el=>[[81,-18],[59,18]].map(([x,y])=>{const p=new DOMPoint(x,y).matrixTransform(el.getScreenCTM());return{x:p.x,y:p.y}}));await page.mouse.move(points[0].x,points[0].y);await page.mouse.down();await page.mouse.move(points[1].x,points[1].y,{steps:8});await page.mouse.up();
+ await expect(page.getByRole('button',{name:/回看第 1 刀/})).toBeVisible();await expect(page.getByTestId('geometry-status')).toHaveText('纸张连成一片');await page.getByRole('button',{name:'撤销',exact:true}).click();await expect(page.getByRole('button',{name:'撤销',exact:true})).toBeDisabled();await page.getByRole('button',{name:'重做',exact:true}).click();await expect(page.getByRole('button',{name:'撤销',exact:true})).toBeEnabled();await expect(page.getByText('已自动保存',{exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'导出',exact:true}).click();const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/^项目文件/}).click();const saved=JSON.parse(await fs.readFile(await(await downloadPromise).path(),'utf8'));assert.equal(saved.schemaVersion,1);assert.equal(saved.cursor,1);await page.keyboard.press('Escape');
+ const popupPromise=page.waitForEvent('popup');await page.getByRole('button',{name:'打印纸样',exact:true}).click();const popup=await popupPromise;await expect(popup.locator('body')).toContainText('100 mm');await popup.emulateMedia({media:'print'});assert.equal(await popup.locator('body').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(255, 255, 255)');await popup.close();
+ result.offline={method:'Playwright context.setOffline(true) after application, local fonts and Worker loaded; includes localhost network disconnection.',checks:['create cut','Worker geometry','undo','redo','local autosave','JSON download schemaVersion 1','print popup with 100 mm ruler and white background']};
+ await page.screenshot({path:evidence+'/after-offline-core.png',fullPage:true});result.errors=errors;assert.deepEqual(errors.filter(e=>!e.includes('net::ERR_INTERNET_DISCONNECTED')),[]);result.date=new Date().toISOString();
+} finally {await fs.writeFile(evidence+'/final-interactions.json',JSON.stringify(result,null,2));await browser.close();}
+console.log('Ripple origin/duration, independent fallbacks and fully offline warm core: passed.');

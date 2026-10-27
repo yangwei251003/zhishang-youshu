@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-28T03:23:10.219Z",
+  "changedSinceV3": [],
+  "layout": {
+    ".workbench-body": {
+      "height": 1257.53125,
+      "align": "normal",
+      "blank": 0
+    },
+    ".left-rail": {
+      "height": 1257.53125,
+      "align": "normal",
+      "blank": 57.59375
+    },
+    ".canvas-workspace": {
+      "height": 1257.53125,
+      "align": "normal",
+      "blank": 253.984375
+    },
+    ".right-rail": {
+      "height": 1257.53125,
+      "align": "normal",
+      "blank": 40
+    },
+    ".apprentice-tasks": {
+      "height": 70.1875,
+      "align": "normal",
+      "blank": 1
+    },
+    ".lessons-section": {
+      "height": 542.796875,
+      "align": "normal",
+      "blank": 9
+    }
+  },
+  "inspiration": [
+    {
+      "text": "实验工坊",
+      "class": "nav-active",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "剪纸灵感库",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "学习手册",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "我的作品",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "纸上第一课",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "使用引导",
+      "class": "",
+      "current": null,
+      "pressed": null
+    }
+  ],
+  "works": [
+    {
+      "text": "实验工坊",
+      "class": "nav-active",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "剪纸灵感库",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "学习手册",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "我的作品",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "纸上第一课",
+      "class": "",
+      "current": null,
+      "pressed": null
+    },
+    {
+      "text": "使用引导",
+      "class": "",
+      "current": null,
+      "pressed": null
+    }
+  ],
+  "mobileHeader": 231.796875,
+  "audio": {
+    "observedGainValues": [
+      0.05623413249850273,
+      1,
+      1,
+      1
+    ],
+    "localAudioFiles": [],
+    "musicMainPeakDb": -34.11863911299449,
+    "cutPeakDb": -15.917600346881503
+  },
+  "expanded": {
+    ".workbench-body": {
+      "height": 1693.71875,
+      "blank": 0
+    },
+    ".left-rail": {
+      "height": 1693.71875,
+      "blank": 0
+    },
+    ".canvas-workspace": {
+      "height": 1693.71875,
+      "blank": 690.171875
+    },
+    ".right-rail": {
+      "height": 1693.71875,
+      "blank": 476.1875
+    },
+    ".apprentice-tasks": {
+      "height": 563.96875,
+      "blank": 1
+    },
+    ".lessons-section": {
+      "height": 542.796875,
+      "blank": 9
+    }
+  }
+}

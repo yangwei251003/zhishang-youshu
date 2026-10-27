@@ -1,0 +1,227 @@
+{
+  "unit": {
+    "passed": 71,
+    "failed": 0
+  },
+  "initialBrowserRun": {
+    "startTime": "2026-09-26T17:21:26.400Z",
+    "duration": 450745.922,
+    "expected": 29,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "confirmationRun": {
+    "startTime": "2026-09-26T17:30:01.344Z",
+    "duration": 37950.282,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "finalBrowserRun": {
+    "startTime": "2026-09-26T17:34:38.780Z",
+    "duration": 553064.819,
+    "expected": 32,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "uniqueBrowserCases": 32,
+  "latestPassed": 32,
+  "note": "保留初次几何等待超时及定向确认报告；最终运行独立覆盖全部32项。生产检查另发现并修复撤销后保存状态竞态，保留刷新恢复断言。",
+  "cases": [
+    {
+      "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+      "file": "platform.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+      "file": "platform.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "本机多作品保存、指定恢复与计算Worker实际运行",
+      "file": "platform.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "真实浏览器Worker性能：50刀 × 8层且不借助网络接口",
+      "file": "platform.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+      "file": "tour.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+      "file": "tour.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+      "file": "tour.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "真实六步漫游完成、刷新持久与原作品及记录隔离",
+      "file": "tour.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好",
+      "file": "tour.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "390px漫游的预测和绘制目标不被提示卡覆盖",
+      "file": "tour.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+      "file": "v2-lifecycle.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "同课重做与恢复保留独立attemptId，手机选择课程后收起目录",
+      "file": "v2-lifecycle.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+      "file": "v2.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+      "file": "v2.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+      "file": "v2.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+      "file": "v2.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+      "file": "v2.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录",
+      "file": "v2.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路",
+      "file": "v2.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助",
+      "file": "v2.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "V2 第一课X77宽3未达标时定位真实毫米标记，恢复后目标同步",
+      "file": "v2.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "V2 两次非法修改保留失败草稿和历史，一次成功后清除并导出完整事件",
+      "file": "v2.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+      "file": "workshop.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+      "file": "workshop.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+      "file": "workshop.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+      "file": "workshop.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+      "file": "workshop.spec.ts",
+      "project": "chrome",
+      "status": "passed"
+    },
+    {
+      "title": "新建、边界剪切、撤销重做、参数修改、重开与非法导入保护",
+      "file": "workshop.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "预测、定位分离、比较修复、完成学习、项目导出重导入和打印",
+      "file": "workshop.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "分步展开、基础反馈和窄屏不产生整页横向溢出",
+      "file": "workshop.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "重做同课重新预测，新的匿名参与者与旧记录分开",
+      "file": "workshop.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    },
+    {
+      "title": "计算线程失败不能沿用旧版通过结果记录成绩",
+      "file": "workshop.spec.ts",
+      "project": "edge",
+      "status": "passed"
+    }
+  ]
+}

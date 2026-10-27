@@ -1,0 +1,522 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 2931,
+  "duration": 97.7,
+  "scenes": [
+    {
+      "id": "opening",
+      "title": "一张纸，会藏着什么？",
+      "lines": [
+        "一张纸，折几次，剪一刀。",
+        "你猜，展开以后，会是什么样？"
+      ],
+      "from": 0,
+      "frames": 213,
+      "voices": [
+        {
+          "text": "一张纸，折几次，剪一刀。",
+          "src": "audio/00-00.wav",
+          "duration": 2.442,
+          "frames": 74,
+          "from": 20
+        },
+        {
+          "text": "你猜，展开以后，会是什么样？",
+          "src": "audio/00-01.wav",
+          "duration": 2.53,
+          "frames": 76,
+          "from": 105
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "纸上有数",
+      "lines": [
+        "这里是纸上有数。",
+        "一个可以边剪、边看，也可以慢慢试错的剪纸工坊。"
+      ],
+      "from": 213,
+      "frames": 238,
+      "voices": [
+        {
+          "text": "这里是纸上有数。",
+          "src": "audio/01-00.wav",
+          "duration": 1.433,
+          "frames": 43,
+          "from": 233
+        },
+        {
+          "text": "一个可以边剪、边看，也可以慢慢试错的剪纸工坊。",
+          "src": "audio/01-01.wav",
+          "duration": 4.37,
+          "frames": 132,
+          "from": 287
+        }
+      ]
+    },
+    {
+      "id": "guide",
+      "title": "第一次来，慢慢跟着做",
+      "lines": [
+        "第一次来，就跟着引导走一遍。",
+        "认识工作台，再从纸边，落下第一刀。",
+        "先留下你的预测，再展开看一看。",
+        "猜错也没关系。"
+      ],
+      "from": 451,
+      "frames": 373,
+      "voices": [
+        {
+          "text": "第一次来，就跟着引导走一遍。",
+          "src": "audio/02-00.wav",
+          "duration": 2.346,
+          "frames": 71,
+          "from": 471
+        },
+        {
+          "text": "认识工作台，再从纸边，落下第一刀。",
+          "src": "audio/02-01.wav",
+          "duration": 3.322,
+          "frames": 100,
+          "from": 553
+        },
+        {
+          "text": "先留下你的预测，再展开看一看。",
+          "src": "audio/02-02.wav",
+          "duration": 2.607,
+          "frames": 79,
+          "from": 664
+        },
+        {
+          "text": "猜错也没关系。",
+          "src": "audio/02-03.wav",
+          "duration": 1.239,
+          "frames": 38,
+          "from": 754
+        }
+      ]
+    },
+    {
+      "id": "cut",
+      "title": "左边落一剪，右边看变化",
+      "lines": [
+        "在左边，拖出一个小小的剪口。",
+        "松开手，右边的图案，就跟着变了。"
+      ],
+      "from": 824,
+      "frames": 229,
+      "voices": [
+        {
+          "text": "在左边，拖出一个小小的剪口。",
+          "src": "audio/03-00.wav",
+          "duration": 2.516,
+          "frames": 76,
+          "from": 844
+        },
+        {
+          "text": "松开手，右边的图案，就跟着变了。",
+          "src": "audio/03-01.wav",
+          "duration": 2.991,
+          "frames": 90,
+          "from": 931
+        }
+      ]
+    },
+    {
+      "id": "unfold",
+      "title": "把对称，一层层看明白",
+      "lines": [
+        "别急着剪下一刀，把纸一层层展开。",
+        "看看同一个缺口，怎样变成一圈对称的花纹。"
+      ],
+      "from": 1053,
+      "frames": 260,
+      "voices": [
+        {
+          "text": "别急着剪下一刀，把纸一层层展开。",
+          "src": "audio/04-00.wav",
+          "duration": 3.07,
+          "frames": 93,
+          "from": 1073
+        },
+        {
+          "text": "看看同一个缺口，怎样变成一圈对称的花纹。",
+          "src": "audio/04-01.wav",
+          "duration": 3.463,
+          "frames": 104,
+          "from": 1177
+        }
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "剪多了，也有路可回",
+      "lines": [
+        "剪得太深了？没关系。",
+        "先看看结构提示，再回到刚才那一刀。",
+        "比较修改前后，留住该留的连接。"
+      ],
+      "from": 1313,
+      "frames": 327,
+      "voices": [
+        {
+          "text": "剪得太深了？没关系。",
+          "src": "audio/05-00.wav",
+          "duration": 2.367,
+          "frames": 72,
+          "from": 1333
+        },
+        {
+          "text": "先看看结构提示，再回到刚才那一刀。",
+          "src": "audio/05-01.wav",
+          "duration": 3.253,
+          "frames": 98,
+          "from": 1416
+        },
+        {
+          "text": "比较修改前后，留住该留的连接。",
+          "src": "audio/05-02.wav",
+          "duration": 2.749,
+          "frames": 83,
+          "from": 1525
+        }
+      ]
+    },
+    {
+      "id": "edit",
+      "title": "改一点，就有新发现",
+      "lines": [
+        "也可以双击历史里的剪口，改改大小和位置。",
+        "同一张纸，试出不一样的节奏。"
+      ],
+      "from": 1640,
+      "frames": 248,
+      "voices": [
+        {
+          "text": "也可以双击历史里的剪口，改改大小和位置。",
+          "src": "audio/06-00.wav",
+          "duration": 3.67,
+          "frames": 111,
+          "from": 1660
+        },
+        {
+          "text": "同一张纸，试出不一样的节奏。",
+          "src": "audio/06-01.wav",
+          "duration": 2.457,
+          "frames": 74,
+          "from": 1782
+        }
+      ]
+    },
+    {
+      "id": "inspiration",
+      "title": "看一双手，懂一张纸",
+      "lines": [
+        "没有灵感的时候，就去灵感库逛逛。",
+        "从雪花、团花，到蝴蝶和花边，",
+        "挑一个喜欢的方向，再回来动手。"
+      ],
+      "from": 1888,
+      "frames": 325,
+      "voices": [
+        {
+          "text": "没有灵感的时候，就去灵感库逛逛。",
+          "src": "audio/07-00.wav",
+          "duration": 2.767,
+          "frames": 83,
+          "from": 1908
+        },
+        {
+          "text": "从雪花、团花，到蝴蝶和花边，",
+          "src": "audio/07-01.wav",
+          "duration": 2.907,
+          "frames": 88,
+          "from": 2002
+        },
+        {
+          "text": "挑一个喜欢的方向，再回来动手。",
+          "src": "audio/07-02.wav",
+          "duration": 2.642,
+          "frames": 80,
+          "from": 2101
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "title": "把这次尝试，留在手边",
+      "lines": [
+        "喜欢这次的尝试，就把作品保存下来。",
+        "导出项目或矢量图，也能打印纸样。",
+        "拿一张真正的纸，再试一次。",
+        "打印时，先量量标尺。"
+      ],
+      "from": 2213,
+      "frames": 407,
+      "voices": [
+        {
+          "text": "喜欢这次的尝试，就把作品保存下来。",
+          "src": "audio/08-00.wav",
+          "duration": 3.224,
+          "frames": 97,
+          "from": 2233
+        },
+        {
+          "text": "导出项目或矢量图，也能打印纸样。",
+          "src": "audio/08-01.wav",
+          "duration": 3.014,
+          "frames": 91,
+          "from": 2341
+        },
+        {
+          "text": "拿一张真正的纸，再试一次。",
+          "src": "audio/08-02.wav",
+          "duration": 2.368,
+          "frames": 72,
+          "from": 2443
+        },
+        {
+          "text": "打印时，先量量标尺。",
+          "src": "audio/08-03.wav",
+          "duration": 2.038,
+          "frames": 62,
+          "from": 2526
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "title": "下一张花纹，等你来剪",
+      "lines": [
+        "想回看短片、查一查方法，就到工坊指南。",
+        "准备好了，就跟着做一遍吧。",
+        "下一张花纹，等你来剪。"
+      ],
+      "from": 2620,
+      "frames": 311,
+      "voices": [
+        {
+          "text": "想回看短片、查一查方法，就到工坊指南。",
+          "src": "audio/09-00.wav",
+          "duration": 3.8,
+          "frames": 115,
+          "from": 2640
+        },
+        {
+          "text": "准备好了，就跟着做一遍吧。",
+          "src": "audio/09-01.wav",
+          "duration": 2.049,
+          "frames": 62,
+          "from": 2766
+        },
+        {
+          "text": "下一张花纹，等你来剪。",
+          "src": "audio/09-02.wav",
+          "duration": 2.0,
+          "frames": 60,
+          "from": 2839
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "text": "一张纸，折几次，剪一刀。",
+      "src": "audio/00-00.wav",
+      "duration": 2.442,
+      "frames": 74,
+      "from": 20
+    },
+    {
+      "text": "你猜，展开以后，会是什么样？",
+      "src": "audio/00-01.wav",
+      "duration": 2.53,
+      "frames": 76,
+      "from": 105
+    },
+    {
+      "text": "这里是纸上有数。",
+      "src": "audio/01-00.wav",
+      "duration": 1.433,
+      "frames": 43,
+      "from": 233
+    },
+    {
+      "text": "一个可以边剪、边看，也可以慢慢试错的剪纸工坊。",
+      "src": "audio/01-01.wav",
+      "duration": 4.37,
+      "frames": 132,
+      "from": 287
+    },
+    {
+      "text": "第一次来，就跟着引导走一遍。",
+      "src": "audio/02-00.wav",
+      "duration": 2.346,
+      "frames": 71,
+      "from": 471
+    },
+    {
+      "text": "认识工作台，再从纸边，落下第一刀。",
+      "src": "audio/02-01.wav",
+      "duration": 3.322,
+      "frames": 100,
+      "from": 553
+    },
+    {
+      "text": "先留下你的预测，再展开看一看。",
+      "src": "audio/02-02.wav",
+      "duration": 2.607,
+      "frames": 79,
+      "from": 664
+    },
+    {
+      "text": "猜错也没关系。",
+      "src": "audio/02-03.wav",
+      "duration": 1.239,
+      "frames": 38,
+      "from": 754
+    },
+    {
+      "text": "在左边，拖出一个小小的剪口。",
+      "src": "audio/03-00.wav",
+      "duration": 2.516,
+      "frames": 76,
+      "from": 844
+    },
+    {
+      "text": "松开手，右边的图案，就跟着变了。",
+      "src": "audio/03-01.wav",
+      "duration": 2.991,
+      "frames": 90,
+      "from": 931
+    },
+    {
+      "text": "别急着剪下一刀，把纸一层层展开。",
+      "src": "audio/04-00.wav",
+      "duration": 3.07,
+      "frames": 93,
+      "from": 1073
+    },
+    {
+      "text": "看看同一个缺口，怎样变成一圈对称的花纹。",
+      "src": "audio/04-01.wav",
+      "duration": 3.463,
+      "frames": 104,
+      "from": 1177
+    },
+    {
+      "text": "剪得太深了？没关系。",
+      "src": "audio/05-00.wav",
+      "duration": 2.367,
+      "frames": 72,
+      "from": 1333
+    },
+    {
+      "text": "先看看结构提示，再回到刚才那一刀。",
+      "src": "audio/05-01.wav",
+      "duration": 3.253,
+      "frames": 98,
+      "from": 1416
+    },
+    {
+      "text": "比较修改前后，留住该留的连接。",
+      "src": "audio/05-02.wav",
+      "duration": 2.749,
+      "frames": 83,
+      "from": 1525
+    },
+    {
+      "text": "也可以双击历史里的剪口，改改大小和位置。",
+      "src": "audio/06-00.wav",
+      "duration": 3.67,
+      "frames": 111,
+      "from": 1660
+    },
+    {
+      "text": "同一张纸，试出不一样的节奏。",
+      "src": "audio/06-01.wav",
+      "duration": 2.457,
+      "frames": 74,
+      "from": 1782
+    },
+    {
+      "text": "没有灵感的时候，就去灵感库逛逛。",
+      "src": "audio/07-00.wav",
+      "duration": 2.767,
+      "frames": 83,
+      "from": 1908
+    },
+    {
+      "text": "从雪花、团花，到蝴蝶和花边，",
+      "src": "audio/07-01.wav",
+      "duration": 2.907,
+      "frames": 88,
+      "from": 2002
+    },
+    {
+      "text": "挑一个喜欢的方向，再回来动手。",
+      "src": "audio/07-02.wav",
+      "duration": 2.642,
+      "frames": 80,
+      "from": 2101
+    },
+    {
+      "text": "喜欢这次的尝试，就把作品保存下来。",
+      "src": "audio/08-00.wav",
+      "duration": 3.224,
+      "frames": 97,
+      "from": 2233
+    },
+    {
+      "text": "导出项目或矢量图，也能打印纸样。",
+      "src": "audio/08-01.wav",
+      "duration": 3.014,
+      "frames": 91,
+      "from": 2341
+    },
+    {
+      "text": "拿一张真正的纸，再试一次。",
+      "src": "audio/08-02.wav",
+      "duration": 2.368,
+      "frames": 72,
+      "from": 2443
+    },
+    {
+      "text": "打印时，先量量标尺。",
+      "src": "audio/08-03.wav",
+      "duration": 2.038,
+      "frames": 62,
+      "from": 2526
+    },
+    {
+      "text": "想回看短片、查一查方法，就到工坊指南。",
+      "src": "audio/09-00.wav",
+      "duration": 3.8,
+      "frames": 115,
+      "from": 2640
+    },
+    {
+      "text": "准备好了，就跟着做一遍吧。",
+      "src": "audio/09-01.wav",
+      "duration": 2.049,
+      "frames": 62,
+      "from": 2766
+    },
+    {
+      "text": "下一张花纹，等你来剪。",
+      "src": "audio/09-02.wav",
+      "duration": 2.0,
+      "frames": 60,
+      "from": 2839
+    }
+  ],
+  "voice": {
+    "provider": "Microsoft Edge online natural voice via edge-tts",
+    "name": "zh-CN-XiaoxiaoNeural",
+    "rate": "-4%",
+    "pitch": "-2Hz"
+  }
+}

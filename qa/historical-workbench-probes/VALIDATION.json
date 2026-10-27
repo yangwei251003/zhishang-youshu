@@ -1,0 +1,40 @@
+{
+  "syntax_checked": 5,
+  "contrast_historical_results": [
+    {
+      "file": "theme-contrast-draft.mjs",
+      "exit": 0,
+      "reported_failed_pairs": 7
+    },
+    {
+      "file": "theme-contrast-v2.mjs",
+      "exit": 0,
+      "reported_failed_pairs": 0
+    },
+    {
+      "file": "theme-dark-solve.mjs",
+      "exit": 0,
+      "reported_failed_pairs": 0
+    }
+  ],
+  "actual_dom_probes": [
+    {
+      "file": "layout-probe.mjs",
+      "exit": 0,
+      "isolated_chrome": true,
+      "target": "existing validated release build served on loopback",
+      "claim": "DOM measurements only, not anonymous-online or new whole-app acceptance"
+    },
+    {
+      "file": "nav-mobile-probe.mjs",
+      "exit": 0,
+      "isolated_chrome": true,
+      "target": "existing validated release build served on loopback",
+      "claim": "DOM measurements only, not anonymous-online or new whole-app acceptance"
+    }
+  ],
+  "earlier_anonymous_networkidle_wait_timed_out": true,
+  "readiness_now_explicit_header_and_fonts": true,
+  "no_original_files_modified": true,
+  "external_account_or_local_user_browser_used": false
+}

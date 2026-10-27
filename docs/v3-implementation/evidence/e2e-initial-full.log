@@ -1,0 +1,21 @@
+
+> zhishang-youshu@0.3.0 test:e2e
+> playwright test --output=artifacts/e2e-v3-final
+
+
+Running 80 tests using 1 worker
+
+(node:37608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chrome] › tests\e2e\platform.spec.ts:3:1 › 本机多作品保存、指定恢复与计算Worker实际运行 (2.8s)
+50刀8层首次Worker计算（含初始化） {"elapsedMs":320.60000002384186,"count":50,"valid":true,"regions":1,"area":25390}
+  ok  2 [chrome] › tests\e2e\platform.spec.ts:24:1 › 真实浏览器Worker性能：50刀 × 8层且不借助网络接口 (2.5s)
+  ok  3 [chrome] › tests\e2e\tour.spec.ts:38:1 › 真实六步漫游完成、刷新持久与原作品及记录隔离 (13.1s)
+  x   4 [chrome] › tests\e2e\tour.spec.ts:81:1 › 键盘Tab与ShiftTab可达真实目标、Esc退出，重看保留skipped偏好 (46.1s)
+(node:24260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  5 [chrome] › tests\e2e\tour.spec.ts:106:1 › 390px漫游的预测和绘制目标不被提示卡覆盖 (4.2s)
+  ok  6 [chrome] › tests\e2e\v2-lifecycle.spec.ts:4:1 › 同课重做与恢复保留独立attemptId，手机选择课程后收起目录 (15.7s)
+  ok  7 [chrome] › tests\e2e\v2.spec.ts:40:1 › V2 首访键盘跳过后刷新记住选择，重看引导退出保留旧作品与正式记录 (10.7s)
+  ok  8 [chrome] › tests\e2e\v2.spec.ts:58:1 › V2 六课两新题预测前关闭展开、历史、打印及SVG全部正常旁路 (36.6s)
+  ok  9 [chrome] › tests\e2e\v2.spec.ts:83:1 › V2 迁移独立观察不指认修复刀号，主动提示后才显示并记录辅助 (12.6s)

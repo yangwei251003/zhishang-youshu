@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-09-28T06:24:54.554Z",
+  "base": "http://127.0.0.1:5194",
+  "results": [
+    {
+      "channel": "chrome",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'http://127.0.0.1:5194/videos/workshop-intro.mp4',\n+   'http://127.0.0.1:5194/videos/workshop-intro.mp4'\n+ ]\n- []\n",
+      "errors": [],
+      "failedRequests": [
+        "http://127.0.0.1:5194/videos/workshop-intro.mp4",
+        "http://127.0.0.1:5194/videos/workshop-intro.mp4"
+      ],
+      "externalRequests": [],
+      "scenes": [
+        {
+          "theme": "plain",
+          "section": "认识工坊",
+          "horizontalOverflow": false,
+          "nodes": 34,
+          "contrastFailures": []
+        },
+        {
+          "theme": "plain",
+          "section": "动手指南",
+          "horizontalOverflow": false,
+          "nodes": 42,
+          "contrastFailures": []
+        },
+        {
+          "theme": "plain",
+          "section": "我们的团队",
+          "horizontalOverflow": false,
+          "nodes": 29,
+          "contrastFailures": []
+        },
+        {
+          "theme": "bamboo",
+          "section": "认识工坊",
+          "horizontalOverflow": false,
+          "nodes": 34,
+          "contrastFailures": []
+        },
+        {
+          "theme": "bamboo",
+          "section": "动手指南",
+          "horizontalOverflow": false,
+          "nodes": 42,
+          "contrastFailures": []
+        },
+        {
+          "theme": "bamboo",
+          "section": "我们的团队",
+          "horizontalOverflow": false,
+          "nodes": 29,
+          "contrastFailures": []
+        },
+        {
+          "theme": "lacquer",
+          "section": "认识工坊",
+          "horizontalOverflow": false,
+          "nodes": 34,
+          "contrastFailures": []
+        },
+        {
+          "theme": "lacquer",
+          "section": "动手指南",
+          "horizontalOverflow": false,
+          "nodes": 42,
+          "contrastFailures": []
+        },
+        {
+          "theme": "lacquer",
+          "section": "我们的团队",
+          "horizontalOverflow": false,
+          "nodes": 29,
+          "contrastFailures": []
+        },
+        {
+          "theme": "ink",
+          "section": "认识工坊",
+          "horizontalOverflow": false,
+          "nodes": 34,
+          "contrastFailures": []
+        },
+        {
+          "theme": "ink",
+          "section": "动手指南",
+          "horizontalOverflow": false,
+          "nodes": 42,
+          "contrastFailures": []
+        },
+        {
+          "theme": "ink",
+          "section": "我们的团队",
+          "horizontalOverflow": false,
+          "nodes": 29,
+          "contrastFailures": []
+        },
+        {
+          "theme": "indigo",
+          "section": "认识工坊",
+          "horizontalOverflow": false,
+          "nodes": 34,
+          "contrastFailures": []
+        },
+        {
+          "theme": "indigo",
+          "section": "动手指南",
+          "horizontalOverflow": false,
+          "nodes": 42,
+          "contrastFailures": []
+        },
+        {
+          "theme": "indigo",
+          "section": "我们的团队",
+          "horizontalOverflow": false,
+          "nodes": 29,
+          "contrastFailures": []
+        }
+      ]
+    }
+  ],
+  "note": "真实浏览器媒体解码和界面检查；未作为真人听感或实体打印证明。颜色审计不替代图片与渐变逐像素检查。"
+}

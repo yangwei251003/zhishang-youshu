@@ -1,0 +1,86 @@
+[
+  {
+    "text": "一剪，两相映",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "四面有回声",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "一纸，生万象",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "孔，还是一座岛",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "留住这一线",
+    "color": "rgb(182, 59, 46)",
+    "background": "rgb(240, 231, 220)",
+    "fontSize": "12px",
+    "contrastRatio": 4.698584178752804
+  },
+  {
+    "text": "从屏幕，到手心",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "折线上的相遇",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "让纸重新相连",
+    "color": "rgb(147, 135, 122)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "12px",
+    "contrastRatio": 3.2782056537567854
+  },
+  {
+    "text": "首刀后折法固定；新建可更换。",
+    "color": "rgb(155, 142, 126)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "11px",
+    "contrastRatio": 2.9900680714062173
+  },
+  {
+    "text": "在折叠纸边缘拖拽，松开完成一刀。须从当前纸边进入。",
+    "color": "rgb(156, 143, 125)",
+    "background": "rgb(250, 247, 240)",
+    "fontSize": "11px",
+    "contrastRatio": 2.9565054785053526
+  },
+  {
+    "text": "所有保留区域仍然相连。试着留意空白如何勾勒出图案。",
+    "color": "rgb(154, 138, 118)",
+    "background": "rgb(252, 249, 242)",
+    "fontSize": "12px",
+    "contrastRatio": 3.1847441458943333
+  },
+  {
+    "text": "修复建议代表回到剪切前修改模板，不是把已剪掉的纸补回来。修改早期步骤后，后续每一刀也必须重新检查。",
+    "color": "rgb(155, 137, 114)",
+    "background": "rgb(252, 249, 242)",
+    "fontSize": "12px",
+    "contrastRatio": 3.213460874690483
+  }
+]

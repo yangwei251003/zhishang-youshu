@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-28T04:02:54.320Z",
+  "note": "阻断所有非本机HTTP请求；未拔除网线，未验证真实打印机。",
+  "checks": [
+    {
+      "channel": "chrome",
+      "version": "153.0.8010.54",
+      "appVersion": "0.4.0",
+      "status": "PASS",
+      "externalRequests": 0,
+      "failedRequests": 0,
+      "scriptErrors": 0,
+      "consoleErrors": 0,
+      "localResourceCount": 18,
+      "checks": [
+        "production CSP",
+        "zero console errors",
+        "Worker",
+        "local fonts",
+        "undo/redo",
+        "IndexedDB reload",
+        "SVG download",
+        "external network blocked",
+        "transfer print withholds causal step before hint"
+      ],
+      "buildAssets": [
+        "/assets/index-DvcttDcF.js",
+        "/assets/index-COZeKOxo.css",
+        "/assets/worker-DPKI5FFG.js"
+      ]
+    },
+    {
+      "channel": "msedge",
+      "version": "154.0.4258.37",
+      "appVersion": "0.4.0",
+      "status": "PASS",
+      "externalRequests": 0,
+      "failedRequests": 0,
+      "scriptErrors": 0,
+      "consoleErrors": 0,
+      "localResourceCount": 18,
+      "checks": [
+        "production CSP",
+        "zero console errors",
+        "Worker",
+        "local fonts",
+        "undo/redo",
+        "IndexedDB reload",
+        "SVG download",
+        "external network blocked",
+        "transfer print withholds causal step before hint"
+      ],
+      "buildAssets": [
+        "/assets/index-DvcttDcF.js",
+        "/assets/index-COZeKOxo.css",
+        "/assets/worker-DPKI5FFG.js"
+      ]
+    }
+  ]
+}

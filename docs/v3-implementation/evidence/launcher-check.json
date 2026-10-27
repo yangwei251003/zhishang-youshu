@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-28T01:12:42.3727812+08:00",
+  "launcher": "启动第三版.cmd",
+  "invocation": "cmd.exe /d /c 启动第三版.cmd",
+  "port": 5190,
+  "httpStatus": 200,
+  "csp": [
+    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; worker-src 'self' blob:; connect-src 'self'; frame-src https://player.bilibili.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'"
+  ],
+  "launcherSha256": "F4ABB93E62447AA332DC4B7FA054520A7578C18FB37EA9A637BCADA66E5A2351",
+  "note": "实际执行CMD启动，终端正常显示启动地址，无乱码命令错误；不是Explorer双击或无Node新机器验收。"
+}

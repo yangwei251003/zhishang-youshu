@@ -1,0 +1,4 @@
+import {readFile,writeFile} from 'node:fs/promises';import {createHash} from 'node:crypto';import {resolve,relative} from 'node:path';
+const root=process.cwd();const before=JSON.parse(await readFile('docs/v2-review-2026-09-27/evidence/source-hashes.json','utf8'));
+const changes=[];for(const old of before){const path=resolve(old.Path);if(relative(root,path).startsWith('..'))throw Error('outside project');if(!/src[\\/]|package|config/.test(relative(root,path)))continue;const hash=createHash('sha256').update(await readFile(path)).digest('hex').toUpperCase();changes.push({path:relative(root,path),before:old.Hash,current:hash,changed:hash!==old.Hash});}
+await writeFile('docs/v2-implementation/evidence/source-hashes.json',JSON.stringify(changes,null,2));console.log(changes.filter(x=>x.path.startsWith('src\\geometry')));

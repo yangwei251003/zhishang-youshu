@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Original geometric record cover 2">
+  <rect width="240" height="240" rx="24" fill="none"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.6">
+    <circle cx="120" cy="120" r="91"/><circle cx="120" cy="120" r="80" opacity=".3"/>
+    <circle cx="120" cy="120" r="66" opacity=".22"/><circle cx="120" cy="120" r="51" opacity=".18"/>
+    <circle cx="120" cy="120" r="7"/>
+    <path d="M120 38Q145 92 202 120Q147 148 120 202Q92 146 38 120Q92 93 120 38Z" opacity=".6" transform="rotate(45.0 120 120)"/>
+  </g>
+  <text x="120" y="224" text-anchor="middle" fill="currentColor" font-family="serif" font-size="13" letter-spacing="5">02 / PAPER</text>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28T04:09:37.282Z",
+  "status": "PASS",
+  "port": 5196,
+  "checks": [
+    "all dist-v4 file hashes identical",
+    "launcher copied identically",
+    "standalone Node server",
+    "CSP",
+    "audio and video Range"
+  ],
+  "files": 217,
+  "log": "纸上有数已启动：http://127.0.0.1:5196\n仅本机可访问。关闭窗口或按 Ctrl+C 停止。\n"
+}

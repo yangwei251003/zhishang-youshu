@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-27T17:19:23.757Z",
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "workshop": {
+        "scroll": 1440,
+        "inner": 1440
+      },
+      "library": {
+        "scroll": 1440,
+        "inner": 1440,
+        "players": 0
+      },
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "workshop": {
+        "scroll": 1280,
+        "inner": 1280
+      },
+      "library": {
+        "scroll": 1280,
+        "inner": 1280,
+        "players": 0
+      },
+      "errors": []
+    },
+    {
+      "width": 1100,
+      "height": 800,
+      "workshop": {
+        "scroll": 1100,
+        "inner": 1100
+      },
+      "library": {
+        "scroll": 1100,
+        "inner": 1100,
+        "players": 0
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "workshop": {
+        "scroll": 390,
+        "inner": 390
+      },
+      "library": {
+        "scroll": 390,
+        "inner": 390,
+        "players": 0
+      },
+      "errors": []
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "workshop": {
+        "scroll": 360,
+        "inner": 360
+      },
+      "library": {
+        "scroll": 360,
+        "inner": 360,
+        "players": 0
+      },
+      "errors": []
+    }
+  ]
+}

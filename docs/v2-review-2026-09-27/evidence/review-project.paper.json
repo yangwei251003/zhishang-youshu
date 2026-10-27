@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "paper-93db281e-ef78-4629-b022-9bc7c86088c1",
+  "title": "留住这一线",
+  "createdAt": "2026-09-26T16:42:20.632Z",
+  "updatedAt": "2026-09-26T16:42:47.965Z",
+  "revision": 8,
+  "paperSizeMm": 160,
+  "foldMode": 4,
+  "cuts": [
+    {
+      "id": "bridge-window",
+      "label": "保留的花窗",
+      "shape": "triangle",
+      "points": [
+        {
+          "x": 20,
+          "y": 0
+        },
+        {
+          "x": 29,
+          "y": 14
+        },
+        {
+          "x": 38,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "bridge-band",
+      "label": "切断连接的第二刀",
+      "shape": "rectangle",
+      "points": [
+        {
+          "x": 21,
+          "y": 32
+        },
+        {
+          "x": 81,
+          "y": 32
+        },
+        {
+          "x": 81,
+          "y": 42
+        },
+        {
+          "x": 21,
+          "y": 42
+        }
+      ]
+    }
+  ],
+  "cursor": 2,
+  "mode": "learn",
+  "lessonId": "bridge",
+  "progress": [
+    {
+      "lessonId": "bridge",
+      "prediction": "回到第二刀，减小剪入深度",
+      "completedAt": "2026-09-26T16:42:47.965Z"
+    }
+  ],
+  "events": [
+    {
+      "type": "prediction",
+      "value": "回到第二刀，减小剪入深度",
+      "at": "2026-09-26T16:42:20.815Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "repair_suggestions",
+      "value": "3 个可用建议",
+      "at": "2026-09-26T16:42:20.913Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "apply_repair",
+      "value": "已应用「第 2 剪收窄至 80%」，请使用新纸制作。",
+      "at": "2026-09-26T16:42:21.247Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "modify_cut",
+      "value": "剪口参数已更新，后续步骤已经重新检查。",
+      "at": "2026-09-26T16:42:47.895Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "lesson_complete",
+      "value": "27333 ms",
+      "at": "2026-09-26T16:42:47.965Z",
+      "lessonId": "bridge"
+    }
+  ],
+  "participantId": "anon-50e9b85f-536a-451f-95d9-cd9b9be7f89b",
+  "feedbackMode": "explained"
+}

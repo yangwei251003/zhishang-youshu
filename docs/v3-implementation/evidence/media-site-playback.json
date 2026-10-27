@@ -1,0 +1,300 @@
+{
+  "date": "2026-09-27T17:21:48.717Z",
+  "site": "http://127.0.0.1:5190",
+  "bvid": "BV1U24y1k7hX",
+  "scope": "One real production-site iframe. Independent headless Chrome; no app edits, no route stubs, no retry.",
+  "pageErrors": [],
+  "consoleErrors": [
+    "@bilibili/bili-user-fingerprint(report): report is not found"
+  ],
+  "httpStatus": 200,
+  "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; worker-src 'self' blob:; connect-src 'self'; frame-src https://player.bilibili.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'",
+  "iframesBeforeClick": 0,
+  "iframeSrc": "https://player.bilibili.com/player.html?bvid=BV1U24y1k7hX&p=1&autoplay=0&muted=1&danmaku=0&poster=1",
+  "before": {
+    "paused": true,
+    "muted": true,
+    "currentTime": 0,
+    "readyState": 4,
+    "duration": 330,
+    "videoWidth": 640,
+    "videoHeight": 360
+  },
+  "controls": [
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-container bpx-state-disable-box-shadow bpx-player-embedded bpx-state-paused",
+      "title": null,
+      "aria": null,
+      "text": "正在缓冲...",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-primary-area",
+      "title": null,
+      "aria": "哔哩哔哩播放器",
+      "text": "正在缓冲...",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-video-area",
+      "title": null,
+      "aria": null,
+      "text": "正在缓冲...",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-video-perch",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-video-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-video-poster",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-row-dm-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-adv-dm-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-bas-dm-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-cmd-dm-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 280,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-cmd-dm-inside",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 280,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-ending-wrap",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-ending-backdrop",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": -49.796875,
+        "y": -28,
+        "width": 597.59375,
+        "height": 336
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-ending-panel",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-share-panel",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-state-wrap",
+      "title": null,
+      "aria": null,
+      "text": "正在缓冲...",
+      "rect": {
+        "x": 400,
+        "y": 154,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-state-play",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 400,
+        "y": 154,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "bpx-player-context-area",
+      "title": null,
+      "aria": null,
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 498,
+        "height": 280
+      }
+    }
+  ],
+  "method": "Actual visible player control bpx-player-state-play",
+  "pass": false,
+  "error": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.bpx-player-state-play').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"bpx-player-state-play\"></div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <video preload=\"auto\" crossorigin=\"anonymous\" src=\"blob:https://player.bilibili.com/ea374368-2088-4ab6-a22b-e962e6576fe6\"></video> from <div class=\"bpx-player-video-perch\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+  "fallback": {
+    "method": "One explicitly permitted fallback after the platform-control timeout: HTMLVideoElement.play() inside the real production iframe; no further control retry.",
+    "pageErrors": [],
+    "consoleErrors": [
+      {
+        "text": "@bilibili/bili-user-fingerprint(report): report is not found",
+        "location": {
+          "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js",
+          "line": 0,
+          "column": 27627,
+          "lineNumber": 0,
+          "columnNumber": 27627
+        }
+      }
+    ],
+    "before": {
+      "paused": true,
+      "muted": true,
+      "currentTime": 0,
+      "readyState": 4,
+      "duration": 330,
+      "videoWidth": 640,
+      "videoHeight": 360
+    },
+    "after": {
+      "paused": false,
+      "muted": true,
+      "currentTime": 3.030732,
+      "readyState": 4,
+      "duration": 330,
+      "videoWidth": 640,
+      "videoHeight": 360,
+      "error": null
+    },
+    "pass": true
+  },
+  "status": "MEDIA_PLAYBACK_PASS_CONTROL_CLICK_NOT_VERIFIED",
+  "validationBoundary": "Original control timeout remains recorded. Real production iframe played via explicit media API fallback, not a verified user play-button click. External player console output is retained separately and must not be included in a claim of zero console errors after enabling third-party media."
+}

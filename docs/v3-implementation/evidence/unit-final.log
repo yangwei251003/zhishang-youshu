@@ -1,0 +1,34 @@
+
+> zhishang-youshu@0.3.0 test
+> vitest run --reporter=default --reporter=json --outputFile=docs/v3-implementation/evidence/unit-results.json
+
+
+ RUN  v5.0.2 C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊
+
+ ✓ tests/unit/geometry-client.test.ts (3 tests) 164ms
+ ✓ tests/unit/v3-apprentice.test.ts (4 tests) 25ms
+ ✓ tests/unit/v2-records.test.ts (6 tests) 52ms
+ ✓ tests/unit/v2-markers.test.ts (6 tests) 33ms
+ ✓ tests/unit/integration-lessons.test.ts (12 tests) 656ms
+   ✓ 课程与几何契约的集成 (12)
+     ✓ bridge 修复保留图案目标，不能靠裁空或删全部操作通过 389ms
+ ✓ tests/unit/v3-resilience.test.ts (5 tests) 511ms
+   ✓ V3 resilience keeps the original geometry and document contract (5)
+     ✓ simplifying repair candidates still verifies the complete project goal 407ms
+ ✓ tests/unit/io.test.ts (27 tests) 420ms
+ ✓ tests/unit/v3-lessons.test.ts (18 tests) 910ms
+ ✓ tests/unit/geometry.test.ts (22 tests) 1285ms
+   ✓ sequence correctness, goals and constrained repairs (10)
+     ✓ offers only full-history-valid repairs which preserve the central hole 374ms
+     ✓ checks 50 eight-layer cuts without dropping steps 496ms
+
+ Test Files  9 passed (9)
+      Tests  103 passed (103)
+   Start at  01:14:26
+   Duration  3.28s (transform 52%, tests 35%, import 12%, worker 1%)
+
+  Transform  transforming modules took 6.03s · 52% of tracked time, re-done on every run
+             persist transforms across runs with fsModuleCache: true
+             learn more: https://vitest.dev/guide/improving-performance#caching-between-reruns
+
+JSON report written to C:/Users/yangwei/Desktop/数字媒体科技比赛/纸上有数——剪纸结构与几何的交互实验工坊/docs/v3-implementation/evidence/unit-results.json

@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-28",
+  "reviewer": "WorkBuddy 小助（代理走查，非真人试用）",
+  "target": "http://127.0.0.1:5192 （dist v0.3.0 生产构建，scripts/serve.mjs）",
+  "buildVerified": { "unitTests": "103 passed / 103 (9 files, 1.94s) — 与 codex 声明一致", "consoleErrors": 0, "consoleWarnings": 1 },
+  "consoleWarningDetail": "Allow attribute will take precedence over 'allowfullscreen' —— RealCutVideo iframe 同时设置了 allow 与 allowFullScreen 属性（assets/index-DwQigk1-.js）",
+  "layoutBlank": {
+    "viewport": "1600×900",
+    "workbenchBodyHeight": 1694,
+    "workbenchHeight": 1834,
+    "pageScrollHeight": 2196,
+    "columns": [
+      { "col": "left-rail", "height": 1694, "contentEnd": 1694, "blank": 0,
+        "children": [
+          { "cls": "apprentice-tasks", "h": 564 },
+          { "cls": "mode-switch", "h": 50 },
+          { "cls": "rail-section lessons-section", "h": 543 },
+          { "cls": "rail-section（折叠方式）", "h": 161 },
+          { "cls": "rail-section tools-section（剪切工具）", "h": 247 },
+          { "cls": "rail-help", "h": 51 }
+        ] },
+      { "col": "canvas-workspace", "height": 1694, "contentEnd": 1003, "blank": 690,
+        "children": [
+          { "cls": "workspace-top", "h": 62 },
+          { "cls": "dual-canvas", "h": 753 },
+          { "cls": "history-section", "h": 188 }
+        ] },
+      { "col": "right-rail", "height": 1694, "contentEnd": 1218, "blank": 476,
+        "children": [
+          { "cls": "right-heading", "h": 26 },
+          { "cls": "diagnosis-panel", "h": 279 },
+          { "cls": "insight-panel", "h": 213 },
+          { "cls": "real-cut-video real-cut-compact", "h": 364 },
+          { "cls": "paper-note", "h": 233 }
+        ] }
+    ],
+    "rootCause": "CSS Grid 默认 stretch：三栏被强制拉伸到同一行高 = 最高栏的自然高度。实测最高栏是【左栏】1694px（.apprentice-tasks 564 + .lessons-section 543 两项即占 65%），中栏自身内容仅 1003px，因此在中栏底部留下 690px 连续空白；右栏内容 1218px，同样留白 476px。",
+    "correctedEarlierJudgement": "早期抽样曾判定元凶是右栏实剪视频卡（553px）；复测后修正——右栏自身也留白 476px，不是它驱动行高。这不是‘某一栏太高’，而是‘三栏内容量差异大 + 强制等高’的结构问题。仅改右栏不解决问题。",
+    "styleConflictEvidence": {
+      "historySectionMarginTop": "styles.css:174 为 auto，被 styles.css:606 的 margin-top:0 覆盖（后者后定义，即当前‘历史紧贴画布’的真实来源）",
+      "railHelpMarginTop": "styles.css:94 为 margin:auto -18px 0，被 styles.css:632 `.left-rail .rail-help{margin-top:0}` 覆盖；实测 computed marginTop = '0px'，auto 已失效",
+      "duplicateMobileMediaQueries": "@media(max-width:750px) 在 styles.css 的 319 / 349 / 497 / 593 / 634 / 660 / 715 行重复出现 7 次",
+      "computed": { "bodyAlignItems": "normal（即 stretch）", "bodyGridTemplateRows": "1693.72px", "bodyMinHeight": "0px", "workbenchMinHeight": "0px" }
+    }
+  },
+  "navActiveState": {
+    "issue": "顶栏‘实验工坊’写死 className=nav-active（App.tsx 第 473 行），其余五个导航项无任何激活态、无 aria-current",
+    "evidence": [
+      "停留在 /（工坊）：实验工坊=nav-active（正确）",
+      "点击‘剪纸灵感库’进入灵感库页：main[hidden]=true、inspiration-library 已渲染（高 5210px），但导航仍是 实验工坊=nav-active + 有 nav-dot，剪纸灵感库 cls=…（无）",
+      "打开‘我的作品’弹窗（.dialog 标题=我的纸上实验）：六个导航项 cls 全部无变化，实验工坊仍 nav-active"
+    ],
+    "scope": "6 个导航项中 5 个无激活态；modal 型入口（学习手册/我的作品/纸上第一课/使用引导）与页面型入口（灵感库）无区分",
+    "recommendation": "只有页面型项（实验工坊/剪纸灵感库）获得常驻 nav-active + aria-current='page'；弹层型项打开时用 aria-pressed + 底色临时高亮，关闭即恢复，避免出现‘灵感库+学习手册同时标红’的矛盾状态"
+  },
+  "onboarding": {
+    "presentOnFirstLoad": true,
+    "title": "一张纸，先想，再剪。",
+    "buttons": ["直接进入，不再提示", "带我完成第一剪", "纸上第一课 · 完整七任务"],
+    "note": "V3 的‘一打开就出现、老手可跳过’要求已落地；弹层会遮挡首屏点击，任何自动化走查需先关闭它"
+  },
+  "audio": {
+    "engine": "Web Audio 合成（无任何本地音频文件；public/ 下 0 个音频文件）",
+    "musicPath": "setMusic() 单条生成式五声音阶乐句，每 1350ms 一个音，bus gain = 10^(-25/20) = 0.0562，单音 level 0.35 ⇒ 峰值 ≈ 0.0197 = −34.1 dBFS；低音 110Hz 支声 ≈ −41.5 dBFS",
+    "sfxLevel": "落剪 0.16 ≈ −15.9 dBFS（比音乐高约 18 dB）",
+    "conclusion": "音乐比音效低近 20 dB，系统音量拉满也近乎不可闻——用户反馈属实。且只有 1 条固定乐句，无选曲、无音量控制。",
+    "toggleVerified": "点击‘开启轻音乐’后 aria-pressed=true，localStorage paperWorkshop.audio.v1={sfx:true,music:true}，状态机正常"
+  },
+  "themeSystem": {
+    "status": "不存在。:root 中仅 10 个自定义属性（--paper/--warm/--ink/--muted/--line/--red/--red-dark/--red-soft/--serif + font-family），实际被 var() 引用的只有 8 个；无 data-theme、无 prefers-color-scheme 分支",
+    "colorLiterals": {
+      "total": 281,
+      "uniqueCaseSensitive": 256,
+      "uniqueCaseNormalized": 254,
+      "files": ["src/styles.css", "src/styles/media.css"],
+      "stylesCssOnly": 269
+    },
+    "implication": "直接加主题切换必然产生对比度失控、色彩数量爆炸、交互状态配色不一致——必须先做色板收敛（token 化）再上主题"
+  },
+  "videoAssets": {
+    "source": "10 段 B 站公开教程，全部 iframe 嵌入（player.bilibili.com），无本地视频文件",
+    "csp": "serve.mjs 已放行 frame-src https://player.bilibili.com ✓",
+    "offlineBehaviour": "本次走查中页面外部请求数为 0（iframe 未加载成功），站点降级为原创观察步骤与来源链接——降级设计有效，但离线/受限网络下没有可播放内容",
+    "iframeWarning": "allow='fullscreen; picture-in-picture' 与 allowFullScreen 同时存在触发控制台 warning"
+  },
+  "mobile": {
+    "viewport": "390×844",
+    "siteHeaderHeight": 232,
+    "rows": ["品牌行", "主导航行（4+2 折行）", "音频开关行"],
+    "note": "占屏 27%，无横向溢出但挤压首屏内容"
+  },
+  "p2Status": "未实现（docs/v3-implementation/README.md：六折及 P2 未纳入）",
+  "notVerified": ["真机触控", "真实打印与实剪", "真实网络下的 B 站播放", "屏幕阅读器全程", "多浏览器（本轮仅 Chromium）"]
+}

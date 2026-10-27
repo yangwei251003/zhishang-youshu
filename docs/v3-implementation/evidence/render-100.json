@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-27T17:23:21.893Z",
+  "browser": "153.0.8010.54",
+  "cutCount": 100,
+  "importToTwoAnimationFramesMs": 1024.2777999999998,
+  "render": {
+    "svgCharacters": 25282,
+    "paths": 1,
+    "width": 467.484375,
+    "height": 467.484375
+  },
+  "method": "真实100刀JSON导入到最终展开SVG及两次requestAnimationFrame；含导入校验、Worker计算与UI更新，非GPU纯绘制时间。单次本机测量，无历史基线。"
+}

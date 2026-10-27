@@ -1,0 +1,31 @@
+[
+  {
+    "name": "paper-title-card",
+    "summary": "一句话逐词压印上纸、一个词标强调色斜体、短划线收束",
+    "use": "章节转场/价值主张字卡；重要功能出场前的引导卡；全片呼吸位",
+    "duration": "1.7–1.8s（50–55f）",
+    "energy": "低（呼吸位，隔开两段高能镜头）",
+    "intention": "在两段产品画面之间给观众一句话的喘息：说清\"接下来看什么、它值什么\"。letterpress 压印质感让字卡与纸墨风格的产品画面同属一个世界。",
+    "source": "references/shots/typography/paper-title-card.md",
+    "updatedAt": "2026-08-18T10:00:28.000Z",
+    "styles": [
+      {
+        "key": "paper-title-card",
+        "label": "paper-title-card",
+        "description": "一句话逐词压印上纸、一个词标强调色斜体、短划线收束",
+        "media": {
+          "url": "./media/paper-title-card.mp4?v=1784437314694",
+          "type": "mp4"
+        }
+      }
+    ],
+    "sourceUrl": "./source/paper-title-card.md",
+    "category": "typography",
+    "tags": [
+      "typography",
+      "transition",
+      "rhythm"
+    ],
+    "addedAt": "2026-07-19T05:45:41.000Z"
+  }
+]

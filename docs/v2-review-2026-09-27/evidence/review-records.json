@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.0",
+  "exportedAt": "2026-09-26T16:43:00.573Z",
+  "participantId": "anon-50e9b85f-536a-451f-95d9-cd9b9be7f89b",
+  "feedbackMode": "explained",
+  "lessonId": "bridge",
+  "progress": [
+    {
+      "lessonId": "bridge",
+      "prediction": "回到第二刀，减小剪入深度",
+      "completedAt": "2026-09-26T16:42:47.965Z"
+    }
+  ],
+  "events": [
+    {
+      "type": "prediction",
+      "value": "回到第二刀，减小剪入深度",
+      "at": "2026-09-26T16:42:20.815Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "repair_suggestions",
+      "value": "3 个可用建议",
+      "at": "2026-09-26T16:42:20.913Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "apply_repair",
+      "value": "已应用「第 2 剪收窄至 80%」，请使用新纸制作。",
+      "at": "2026-09-26T16:42:21.247Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "modify_cut",
+      "value": "剪口参数已更新，后续步骤已经重新检查。",
+      "at": "2026-09-26T16:42:47.895Z",
+      "lessonId": "bridge"
+    },
+    {
+      "type": "lesson_complete",
+      "value": "27333 ms",
+      "at": "2026-09-26T16:42:47.965Z",
+      "lessonId": "bridge"
+    }
+  ],
+  "note": "匿名本地操作记录；时间差和修改次数须结合记录类型分析。记录本身不证明学习效果，不含未执行的人工试验结果。"
+}

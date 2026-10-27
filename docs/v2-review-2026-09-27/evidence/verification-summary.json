@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-27",
+  "baseUrl": "http://127.0.0.1:5187",
+  "build": "v0.1.0 production assets index-Bum0PyIv.js / index-XDeXTq1S.css",
+  "browser": "153.0.8010.54",
+  "viewportDesktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "viewportMobile": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "documentHeight": 1975,
+    "foldedCanvasWidth": 103,
+    "predictionPanelTop": 1455.140625,
+    "predictionPanelWidth": 157
+  },
+  "unitTests": {
+    "total": 59,
+    "passed": 59,
+    "failed": 0
+  },
+  "e2e": {
+    "file": "tests/e2e/workshop.spec.ts",
+    "projects": [
+      "chrome",
+      "edge"
+    ],
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "duration": "1.2m"
+  },
+  "typecheck": {
+    "command": "npx tsc --noEmit --incremental false",
+    "exitCode": 0
+  },
+  "walkthrough": [
+    "fresh_visit",
+    "manual",
+    "all_six_lessons",
+    "two_transfer_lessons",
+    "incorrect_prediction",
+    "repair_compare_apply",
+    "manual_parameter_edit_rejected_then_accepted",
+    "new_blank",
+    "invalid_size",
+    "draw_rejected_then_accepted",
+    "undo_redo",
+    "archive",
+    "project_export_import",
+    "invalid_import_preserves",
+    "reload_persists",
+    "svg_export",
+    "print_pdf",
+    "anonymous_records"
+  ],
+  "limitations": [
+    "Agent-operated browser, not human study",
+    "Headless installed Chrome for manual walkthrough; Chrome and Edge for existing regression tests",
+    "Mobile viewport emulation, not real phone/touch hardware",
+    "No physical printing/cutting",
+    "No release build performed; existing local production build inspected",
+    "No full performance profiling or leak soak test",
+    "No unrelated project accessed"
+  ],
+  "pageErrors": []
+}

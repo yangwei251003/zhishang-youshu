@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-28T03:55:37.699Z",
+  "originalFiles": 71,
+  "missing": [],
+  "changed": [
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/styles.css",
+    "src/types.ts",
+    "src/audio/sfx.ts",
+    "src/components/ApprenticeTasks.tsx",
+    "src/components/AudioToggle.css",
+    "src/components/AudioToggle.tsx",
+    "src/components/Dialog.tsx",
+    "src/components/GoalMarkers.tsx",
+    "src/components/InspirationLibrary.tsx",
+    "src/components/OnboardingTour.css",
+    "src/components/PaperCanvas.tsx",
+    "src/components/RealCutVideo.tsx",
+    "src/components/StorageNotice.tsx",
+    "src/styles/media.css",
+    "tests/e2e/v3-resilience.spec.ts",
+    "tests/unit/v3-resilience.test.ts",
+    "scripts/serve.mjs",
+    "scripts/verify-production.mjs"
+  ],
+  "protectedFiles": [
+    "src/geometry/client.ts",
+    "src/geometry/engine.ts",
+    "src/geometry/kernel.ts",
+    "src/geometry/worker.ts",
+    "src/io/files.ts",
+    "src/io/learning.ts"
+  ],
+  "allOriginalTestFilesPresent": 18,
+  "changedOriginalTests": [
+    "tests/e2e/v3-resilience.spec.ts",
+    "tests/unit/v3-resilience.test.ts"
+  ],
+  "testAdaptations": "v3-resilience unit: literal 0.3.0 → APP_VERSION; v3-resilience E2E: enter settings / sound tab to use existing controls; no test or assertion removed"
+}

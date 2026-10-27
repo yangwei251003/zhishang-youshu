@@ -1,0 +1,5 @@
+
+> zhishang-youshu@0.3.0 verify:production
+> node scripts/verify-production.mjs
+
+[{"channel":"chrome","version":"153.0.8010.54","appVersion":"0.3.0","status":"PASS","externalRequests":0,"failedRequests":0,"scriptErrors":0,"consoleErrors":0,"localResourceCount":19,"checks":["production CSP","zero console errors","Worker","local fonts","undo/redo","IndexedDB reload","SVG download","external network blocked","transfer print withholds causal step before hint"],"buildAssets":["/assets/index-DwQigk1-.js","/assets/index-D3xbzdFB.css","/assets/worker-DPKI5FFG.js"]},{"channel":"msedge","version":"154.0.4258.37","appVersion":"0.3.0","status":"PASS","externalRequests":0,"failedRequests":0,"scriptErrors":0,"consoleErrors":0,"localResourceCount":19,"checks":["production CSP","zero console errors","Worker","local fonts","undo/redo","IndexedDB reload","SVG download","external network blocked","transfer print withholds causal step before hint"],"buildAssets":["/assets/index-DwQigk1-.js","/assets/index-D3xbzdFB.css","/assets/worker-DPKI5FFG.js"]}]
